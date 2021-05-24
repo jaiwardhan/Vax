@@ -1,3 +1,4 @@
+from modules.Logger import Logger
 from modules.Env import Env
 import os
 import json
@@ -14,3 +15,11 @@ class TestComms(unittest.TestCase):
                     config=json.loads(f.read()))
                 otp = capcom.read_otp()
                 self.assertEqual(otp, "6060")
+    
+    def test_logs(self):
+        class T:
+            def a(self):
+                self.x = 1231
+        t = T()
+        Logger.log("asdf")
+        Logger.log("asdfa", 1, "12312", {"a":1231}, ['asdf'], t)
