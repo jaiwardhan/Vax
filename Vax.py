@@ -43,6 +43,16 @@ class Vax:
 			availabilities=self.view_controller.get_by_age()
 		)
 		if self.capcom.send(area_availabilities):
+			can_continue = not self.session.token_too_old_for_auth(than_s=5*60)
+			# If token is too old, refresh it
+			if not can_continue:
+				self.session.reset(True)
+				if self.session.login():
+					can_continue = True
+			if not can_continue:
+				self.capcom.send(Emojis.error + "Cannot continue, unable to login")
+				return
+			self.account.get_beneficiaries()
 			# Get book confirmation
 			center_id, slot = self.capcom.read_booking_slot(timeout_s=20)
 			if center_id and slot:

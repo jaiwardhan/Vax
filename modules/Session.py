@@ -50,6 +50,9 @@ class Session():
 
 	def needs_refresh(self):
 		return self.req_refresh == True
+	
+	def token_too_old_for_auth(self, than_s = 5*60):
+		return self.token_ts + than_s < int(time.time())
 
 	def otp_generate(self):
 		# Reset and start
@@ -106,6 +109,7 @@ class Session():
 				if "token" in data:
 					self.token = data["token"]
 					self.storage.store(Session.STORAGE_KEY_TOKEN, self.token)
+					self.token, self.token_ts = self.storage.get(Session.STORAGE_KEY_TOKEN)
 					return True
 				else:
 					Logger.log("token not in data:", data)

@@ -29,6 +29,9 @@ class Account:
 		self.beneficiaries = []
 		self.beneficiaries_raw = []
 		self.session = session
+		self.get_beneficiaries()
+	
+	def get_beneficiaries(self):
 		base_url, method = APILoader.appointment_get_beneficiaries()
 		headers = Network.headers_json()
 		headers['User-Agent'] = UserAgents.android()
