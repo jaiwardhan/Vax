@@ -1,4 +1,7 @@
 class Emojis:
-    error = "❌ "
-    vax = "💉 "
-    key = "🔑 "
+	error = "❌ "
+	vax = "💉 "
+	key = "🔑 "
+	wait = "⌛ "
+	fire = "🔥 "
+	done = "✅ "

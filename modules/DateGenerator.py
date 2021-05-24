@@ -1,6 +1,7 @@
 import time
 from datetime import datetime
 
+
 class DateGenerator:
 	INTERVAL_24HR = 24*60*60
 	seed_ts = None
@@ -18,8 +19,9 @@ class DateGenerator:
 		DateGenerator.seed_sec = int(DateGenerator.seed_obj.strftime("%S"))
 
 	@staticmethod
-	def format_date_from_days(from_now = 0):
-		ref_ts = DateGenerator.seed_ts + (from_now * DateGenerator.INTERVAL_24HR)
+	def format_date_from_days(from_now=0):
+		ref_ts = DateGenerator.seed_ts + \
+			(from_now * DateGenerator.INTERVAL_24HR)
 		date_obj = datetime.fromtimestamp(ref_ts)
 		return date_obj.strftime("%d-%m-%Y")
 

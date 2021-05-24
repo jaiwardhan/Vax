@@ -1,8 +1,9 @@
 import json
-from modules.Logger import Logger
-import os
 import time
+import os
+from modules.Logger import Logger
 from modules.Env import Env
+
 
 class Storage:
 	BASE_PATH = "storage.json"
@@ -13,13 +14,14 @@ class Storage:
 			with open(Storage.BASE_PATH, "a+") as s:
 				s.write('{}')
 		elif not os.path.isfile(Storage.BASE_PATH):
-			raise ValueError("Unable to store. A remnant with same name is present.")
+			raise ValueError(
+				"Unable to store. A remnant with same name is present.")
 		self.__resync()
-	
+
 	def __sync(self):
 		with open(Storage.BASE_PATH, "w") as s:
 			s.write(json.dumps(self.data_store))
-	
+
 	def __resync(self):
 		contents = '{}'
 		try:
@@ -29,7 +31,7 @@ class Storage:
 			Logger.log(str(e))
 		finally:
 			self.data_store = json.loads(contents)
-	
+
 	def refresh(self):
 		self.__resync()
 
@@ -41,7 +43,7 @@ class Storage:
 			"ts": int(time.time())
 		}
 		self.__sync()
-	
+
 	def delete(self, key):
 		if Env.mode() not in self.data_store:
 			self.data_store[Env.mode()] = {}
@@ -49,9 +51,10 @@ class Storage:
 		if v:
 			del self.data_store[Env.mode()][str(key)]
 		self.__sync()
-	
-	def get(self, key, default = None):
-		partition = {} if Env.mode() not in self.data_store else self.data_store[Env.mode()]
+
+	def get(self, key, default=None):
+		partition = {} if Env.mode(
+		) not in self.data_store else self.data_store[Env.mode()]
 		if str(key) not in partition:
 			return default, 0
 		else:

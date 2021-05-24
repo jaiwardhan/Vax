@@ -1,4 +1,5 @@
 **/.DS_Store
 **/secrets*.json
 **/storage.json
+**/user*.json
 **/logs.txt
