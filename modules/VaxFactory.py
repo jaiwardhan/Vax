@@ -97,7 +97,7 @@ class VaxCenter:
 		if session_id in self.session_data_sig:
 			idx = self.session_data_sig[session_id]
 			self.session_data = self.session_data[:idx] + self.session_data[idx+1:]
-			del self.session_data[idx]
+			del self.session_data_sig[session_id]
 		
 		vax_session = VaxSession(
 			session_id, session_date,

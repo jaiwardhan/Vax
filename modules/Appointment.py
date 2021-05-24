@@ -50,19 +50,16 @@ class Appointment:
 	def reset(self):
 		self.attempts = 0
 	
-	@staticmethod
-	def headers():
-		return {
-			'User-Agent': UserAgents.mac(),
-			'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiIzZmJlMDc2YS0yYTQyLTRhMzItYTdhZC05MGFlMjAzZTg2NTciLCJ1c2VyX2lkIjoiM2ZiZTA3NmEtMmE0Mi00YTMyLWE3YWQtOTBhZTIwM2U4NjU3IiwidXNlcl90eXBlIjoiQkVORUZJQ0lBUlkiLCJtb2JpbGVfbnVtYmVyIjo4ODc4NTUwMDUyLCJiZW5lZmljaWFyeV9yZWZlcmVuY2VfaWQiOjM4OTk1NzQxNjM2MDgwLCJzZWNyZXRfa2V5IjoiYjVjYWIxNjctNzk3Ny00ZGYxLTgwMjctYTYzYWExNDRmMDRlIiwidWEiOiJNb3ppbGxhLzUuMCAoTWFjaW50b3NoOyBJbnRlbCBNYWMgT1MgWCAxMF8xNV83KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvOTAuMC40NDMwLjIxMiBTYWZhcmkvNTM3LjM2IiwiZGF0ZV9tb2RpZmllZCI6IjIwMjEtMDUtMjFUMTQ6NTU6MDguNTYxWiIsImlhdCI6MTYyMTYwODkwOCwiZXhwIjoxNjIxNjA5ODA4fQ.8R6KuwyGlCysdITK7qNkPDtfe1pbvKnTyJjTSjMpAfg'
-		}
-	
-	def __perform(self, perform):
+	def __perform(self, perform, and_then = None):
 		self.reset()
 		DateGenerator.seed()
 
 		while self.can_continue():
 			perform()
+			if and_then is not None:
+				and_then()
+				Logger.log("Sleeping for", self.freq_s)
+				time.sleep(self.freq_s)
 			self.__cycle()
 	
 	def __perform_seek(self):
@@ -113,8 +110,8 @@ class Appointment:
 	def seek(self):
 		return self.__perform(self.__perform_seek)
 	
-	def seek_area(self):
-		return self.__perform(self.__perform_seek_area)
+	def seek_area(self, and_then = None):
+		return self.__perform(self.__perform_seek_area, and_then)
 
 	def aggregate_centers(self, centers):
 		centers = centers if "centers" not in centers else centers["centers"]
