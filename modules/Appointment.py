@@ -1,24 +1,36 @@
-import json
-from modules.Logger import Logger
-from os import stat
 import time
-
-import requests
+import json
 from modules.DateGenerator import DateGenerator
+from modules.Config import APILoader, Network
 from modules.VaxFactory import VaxFactory
 from modules.Device import UserAgents
-from modules.Config import APILoader, Network
+from modules.Logger import Logger
+
+
+class AppointmentBooking:
+	def __init__(self, data):
+		self.center_id = data["center_id"]
+		self.name = data["name"]
+		self.address = data["address"]
+		self.state_name = data["state_name"]
+		self.district_name = data["district_name"]
+		self.block_name = data["block_name"]
+		self.pincode = data["pincode"]
+		self.dose = data["dose"]
+		self.appointment_id = data["appointment_id"]
+		self.session_id = data["session_id"]
+		self.date = data["date"]
+		self.slot = data["slot"]
+
 
 class Appointment:
-
-	URL_SEEK_PIN = "https://cdn-api.co-vin.in/api/v2/appointment/sessions/calendarByPin"
 	BANGALORE_URBAN = "265"
-	BBMP = ""
+	BBMP = "294"
 
-	def __init__(self, seek = 3, pin_codes = ["560029"], 
-		freq_s = 60, mode_cron = True, token = '',
-		district_codes = ["265"]
-		) -> None:
+	def __init__(self, seek=3, pin_codes=["560029"],
+				 freq_s=60, mode_cron=True, token='',
+				 district_codes=["265"]
+				 ) -> None:
 		self.attempts = 0
 		self.days_seek = seek
 		self.pin_codes = pin_codes
@@ -46,11 +58,11 @@ class Appointment:
 
 	def can_continue(self):
 		return (self.mode_cron and self.attempts < 1) or not self.mode_cron
-	
+
 	def reset(self):
 		self.attempts = 0
-	
-	def __perform(self, perform, and_then = None):
+
+	def __perform(self, perform, and_then=None):
 		self.reset()
 		DateGenerator.seed()
 
@@ -61,7 +73,7 @@ class Appointment:
 				Logger.log("Sleeping for", self.freq_s)
 				time.sleep(self.freq_s)
 			self.__cycle()
-	
+
 	def __perform_seek(self):
 		base_api_url, method = APILoader.appointment_by_pin()
 		success = False
@@ -75,7 +87,7 @@ class Appointment:
 			api_url = base_api_url + "?pincode=" + pincode + "&date=" + date_to_check
 
 			resp = method(
-				url=api_url, 
+				url=api_url,
 				headers=headers
 			)
 			self.last_status_code = int(resp.status_code)
@@ -84,17 +96,21 @@ class Appointment:
 				if int(status) < 300:
 					success = True
 				data = resp.json()
-				Logger.log("(Pin API)", date_to_check, "[", status, "]", pincode, "::", data)
+				Logger.log("(Pin API)", date_to_check,
+						   "[", status, "]", pincode, "::", data)
 			else:
-				Logger.log("(Pin API)", date_to_check, "[", status, "]", pincode, " X Failed", resp.content.decode())
+				Logger.log("(Pin API)", date_to_check,
+						   "[", status, "]", pincode, " X Failed", resp.content.decode())
 			time.sleep(self.freq_s)
 		return success
-	
+
 	def __perform_seek_area(self):
 		base_api_url, method = APILoader.appointment_by_district()
 		success = False
 		for districts in self.district_codes:
-			api_url = base_api_url + "?district_id=" + str(districts) + "&date=" + DateGenerator.format_date_from_days(0)
+			api_url = base_api_url + "?district_id=" + \
+				str(districts) + "&date=" + \
+				DateGenerator.format_date_from_days(0)
 			headers = Network.headers_json()
 			headers['User-Agent'] = UserAgents.android()
 			headers['Authorization'] = "Bearer " + self.token
@@ -102,15 +118,17 @@ class Appointment:
 			self.last_status_code = int(resp.status_code)
 			if self.last_status_code < 300:
 				success = True
-				self.aggregate_centers(centers=json.loads(resp.content.decode()))
+				self.aggregate_centers(
+					centers=json.loads(resp.content.decode()))
 			else:
-				Logger.log("(District Cal API)", resp.status_code, resp.content.decode())
+				Logger.log("(District Cal API)", resp.status_code,
+						   resp.content.decode())
 		return success
 
 	def seek(self):
 		return self.__perform(self.__perform_seek)
-	
-	def seek_area(self, and_then = None):
+
+	def seek_area(self, and_then=None):
 		return self.__perform(self.__perform_seek_area, and_then)
 
 	def aggregate_centers(self, centers):

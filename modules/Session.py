@@ -1,25 +1,24 @@
 import json
-from modules.Logger import Logger
-from modules.Comms.CommController import CommController
-from os import stat
 import time
-from modules.Storage import Storage
 from modules.Config import APILoader, Network
 from modules.Device import UserAgents
+from modules.Storage import Storage
+from modules.Logger import Logger
 from modules.Utils import Utils
+
 
 class Session():
 
 	STORAGE_KEY_TOKEN = "TOKEN"
 	STORAGE_KEY_OTP_GEN_TXNID = "OTP_TXNID"
-	
-	def __init__(self, phone_number, secret, force = False, capcom = None):
+
+	def __init__(self, phone_number, secret, force=False, capcom=None):
 		self.secret = secret
 		self.phone_number = str(phone_number)
 		self.storage = Storage()
 		self.capcom = capcom
 		self.reset(force)
-	
+
 	def otp_prompt(self):
 		otp = ""
 		if self.capcom is None:
@@ -27,9 +26,10 @@ class Session():
 		else:
 			otp = self.capcom.read_otp()
 		return otp
-	
-	def reset(self, force = False):
-		last_txn_id, last_txn_ts = self.storage.get(Session.STORAGE_KEY_OTP_GEN_TXNID)
+
+	def reset(self, force=False):
+		last_txn_id, last_txn_ts = self.storage.get(
+			Session.STORAGE_KEY_OTP_GEN_TXNID)
 		last_token, last_token_ts = self.storage.get(Session.STORAGE_KEY_TOKEN)
 
 		if force:
@@ -47,7 +47,7 @@ class Session():
 		self.req_refresh = self.token is None
 		self.txnid_otp_generate = None if self.token is None else last_txn_id
 		self.txnid_otp_generate_ts = None if self.txnid_otp_generate is None else last_txn_ts
-	
+
 	def needs_refresh(self):
 		return self.req_refresh == True
 
@@ -61,8 +61,8 @@ class Session():
 		}
 		api_url, method = APILoader.otp_generate()
 		resp = method(
-			api_url, 
-			headers=headers, 
+			api_url,
+			headers=headers,
 			data=json.dumps(payload)
 		)
 		if resp is not None:
@@ -71,8 +71,10 @@ class Session():
 				if "txnId" in data:
 					txn_id = data["txnId"]
 					Logger.log("Txn id", txn_id)
-					self.storage.store(Session.STORAGE_KEY_OTP_GEN_TXNID, txn_id)
-					self.txnid_otp_generate, self.txnid_otp_generate_ts = self.storage.get(Session.STORAGE_KEY_OTP_GEN_TXNID)
+					self.storage.store(
+						Session.STORAGE_KEY_OTP_GEN_TXNID, txn_id)
+					self.txnid_otp_generate, self.txnid_otp_generate_ts = self.storage.get(
+						Session.STORAGE_KEY_OTP_GEN_TXNID)
 					return True
 				else:
 					Logger.log("txnid not in response data:", data)
@@ -81,11 +83,12 @@ class Session():
 				if int(resp.status_code) == 400 and resp.content.decode() == "OTP Already Sent":
 					return True
 		return False
-	
+
 	def otp_validate(self, with_otp):
 		headers = Network.headers_json()
 		headers['User-Agent'] = UserAgents.android()
-		self.txnid_otp_generate, self.txnid_otp_generate_ts = self.storage.get(Session.STORAGE_KEY_OTP_GEN_TXNID)
+		self.txnid_otp_generate, self.txnid_otp_generate_ts = self.storage.get(
+			Session.STORAGE_KEY_OTP_GEN_TXNID)
 		Logger.log("Txn id is: ", self.txnid_otp_generate)
 		payload = {
 			"otp": Utils.Encoding.sha256(with_otp),
@@ -93,8 +96,8 @@ class Session():
 		}
 		api_url, method = APILoader.otp_validate()
 		resp = method(
-			api_url, 
-			headers=headers, 
+			api_url,
+			headers=headers,
 			data=json.dumps(payload)
 		)
 		if resp is not None:
@@ -114,7 +117,7 @@ class Session():
 					if "USRAUT0024" == error_response["errorCode"]:
 						Logger.log(" => Beneficiary not registered")
 		return False
-	
+
 	def login(self):
 		logged_in = not self.needs_refresh()
 		if self.needs_refresh():
