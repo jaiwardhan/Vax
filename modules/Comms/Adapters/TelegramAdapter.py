@@ -78,7 +78,7 @@ class TelegramAdapter:
                             # Skip as this is not a channel post
                             continue
                         post = each_result["channel_post"]
-                        if str(post["text"]).lower().startswith("otp") and \
+                        if "text" in post and str(post["text"]).lower().startswith("otp") and \
                                 post["date"] > record_time:
                             posts.append({
                                 "time": post["date"],
