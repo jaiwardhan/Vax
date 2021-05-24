@@ -52,7 +52,7 @@ class Vax:
 
 if __name__ == "__main__":
 	vax = Vax(
-		phone_number=8878550052,
+		phone_number=9999988888,
 		district_codes=["265"],
 		pin_codes=["560029", "560034"],
 		live_mode=True)
