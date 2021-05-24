@@ -1,0 +1,2954 @@
+{
+    "centers": [
+        {
+            "center_id": 249031,
+            "name": "Attibele PHC",
+            "address": "Sadara Beedi A Anganwadi Hosuru Main Road Near Attibele Bus Stop",
+            "state_name": "Karnataka",
+            "district_name": "Bangalore Urban",
+            "block_name": "Anekal",
+            "pincode": 562107,
+            "lat": 12,
+            "long": 77,
+            "from": "10:00:00",
+            "to": "13:00:00",
+            "fee_type": "Free",
+            "sessions": [
+                {
+                    "session_id": "1f4893e9-e7be-4e00-be02-e5a7d2d332d9",
+                    "date": "22-05-2021",
+                    "available_capacity": 0,
+                    "min_age_limit": 45,
+                    "vaccine": "COVISHIELD",
+                    "slots": [
+                        "10:00AM-12:00PM",
+                        "12:00PM-01:00PM"
+                    ],
+                    "available_capacity_dose1": 0,
+                    "available_capacity_dose2": 0
+                },
+                {
+                    "session_id": "d2d6cbf0-47e9-4b40-bebc-b8da4a5714f8",
+                    "date": "23-05-2021",
+                    "available_capacity": 0,
+                    "min_age_limit": 45,
+                    "vaccine": "COVISHIELD",
+                    "slots": [
+                        "10:00AM-12:00PM",
+                        "12:00PM-01:00PM"
+                    ],
+                    "available_capacity_dose1": 0,
+                    "available_capacity_dose2": 0
+                },
+                {
+                    "session_id": "5010a291-0d9d-4fc0-9ed0-e86acc8d636c",
+                    "date": "24-05-2021",
+                    "available_capacity": 0,
+                    "min_age_limit": 45,
+                    "vaccine": "COVISHIELD",
+                    "slots": [
+                        "10:30AM-11:30AM",
+                        "11:30AM-12:30PM",
+                        "12:30PM-01:30PM",
+                        "01:30PM-04:00PM"
+                    ],
+                    "available_capacity_dose1": 0,
+                    "available_capacity_dose2": 0
+                }
+            ]
+        },
+        {
+            "center_id": 249082,
+            "name": "Manduru PHC",
+            "address": "Opp Manduru Government School",
+            "state_name": "Karnataka",
+            "district_name": "Bangalore Urban",
+            "block_name": "Bengaluru East",
+            "pincode": 560049,
+            "lat": 13,
+            "long": 77,
+            "from": "10:00:00",
+            "to": "16:00:00",
+            "fee_type": "Free",
+            "sessions": [
+                {
+                    "session_id": "8a383032-3327-4a1e-80fc-52f5f858bb6a",
+                    "date": "22-05-2021",
+                    "available_capacity": 0,
+                    "min_age_limit": 45,
+                    "vaccine": "COVISHIELD",
+                    "slots": [
+                        "10:00AM-11:00AM",
+                        "11:00AM-12:00PM",
+                        "12:00PM-01:00PM",
+                        "01:00PM-04:00PM"
+                    ],
+                    "available_capacity_dose1": 0,
+                    "available_capacity_dose2": 0
+                },
+                {
+                    "session_id": "3b7226e4-4a02-4e0e-83c2-104851cb7918",
+                    "date": "23-05-2021",
+                    "available_capacity": 0,
+                    "min_age_limit": 45,
+                    "vaccine": "COVISHIELD",
+                    "slots": [
+                        "10:00AM-12:00PM",
+                        "12:00PM-01:00PM"
+                    ],
+                    "available_capacity_dose1": 0,
+                    "available_capacity_dose2": 0
+                },
+                {
+                    "session_id": "50b56533-6abc-41a9-935d-38bb53f3de8a",
+                    "date": "24-05-2021",
+                    "available_capacity": 0,
+                    "min_age_limit": 45,
+                    "vaccine": "COVISHIELD",
+                    "slots": [
+                        "10:00AM-11:00AM",
+                        "11:00AM-12:00PM",
+                        "12:00PM-01:00PM",
+                        "01:00PM-04:00PM"
+                    ],
+                    "available_capacity_dose1": 0,
+                    "available_capacity_dose2": 0
+                }
+            ]
+        },
+        {
+            "center_id": 249065,
+            "name": "Gunjuru PHC",
+            "address": "Varthur Main Road",
+            "state_name": "Karnataka",
+            "district_name": "Bangalore Urban",
+            "block_name": "Bengaluru East",
+            "pincode": 560087,
+            "lat": 12,
+            "long": 77,
+            "from": "10:00:00",
+            "to": "16:00:00",
+            "fee_type": "Free",
+            "sessions": [
+                {
+                    "session_id": "5689fe4d-ded1-4f70-94c4-55dfaa0f09f5",
+                    "date": "22-05-2021",
+                    "available_capacity": 0,
+                    "min_age_limit": 45,
+                    "vaccine": "COVISHIELD",
+                    "slots": [
+                        "10:00AM-11:00AM",
+                        "11:00AM-12:00PM",
+                        "12:00PM-01:00PM",
+                        "01:00PM-04:00PM"
+                    ],
+                    "available_capacity_dose1": 0,
+                    "available_capacity_dose2": 0
+                },
+                {
+                    "session_id": "7164a2ad-65d8-449b-b06c-ca37d6875418",
+                    "date": "23-05-2021",
+                    "available_capacity": 0,
+                    "min_age_limit": 45,
+                    "vaccine": "COVISHIELD",
+                    "slots": [
+                        "10:00AM-12:00PM",
+                        "12:00PM-01:00PM"
+                    ],
+                    "available_capacity_dose1": 0,
+                    "available_capacity_dose2": 0
+                },
+                {
+                    "session_id": "f6e3308d-c856-486e-92ef-1cbe5fdecae2",
+                    "date": "24-05-2021",
+                    "available_capacity": 0,
+                    "min_age_limit": 45,
+                    "vaccine": "COVISHIELD",
+                    "slots": [
+                        "10:00AM-11:00AM",
+                        "11:00AM-12:00PM",
+                        "12:00PM-01:00PM",
+                        "01:00PM-04:00PM"
+                    ],
+                    "available_capacity_dose1": 0,
+                    "available_capacity_dose2": 0
+                }
+            ]
+        },
+        {
+            "center_id": 249046,
+            "name": "Bidarahalli PHCSamudaya Bhavan",
+            "address": "Samudaya Bhavan Bidarahalli Circle Behind Chennakeshava High School",
+            "state_name": "Karnataka",
+            "district_name": "Bangalore Urban",
+            "block_name": "Bengaluru East",
+            "pincode": 560049,
+            "lat": 13,
+            "long": 77,
+            "from": "10:00:00",
+            "to": "16:00:00",
+            "fee_type": "Free",
+            "sessions": [
+                {
+                    "session_id": "b19be46b-d0f6-4821-8026-d095d806e5aa",
+                    "date": "22-05-2021",
+                    "available_capacity": 0,
+                    "min_age_limit": 45,
+                    "vaccine": "COVISHIELD",
+                    "slots": [
+                        "10:00AM-11:00AM",
+                        "11:00AM-12:00PM",
+                        "12:00PM-01:00PM",
+                        "01:00PM-04:00PM"
+                    ],
+                    "available_capacity_dose1": 0,
+                    "available_capacity_dose2": 0
+                },
+                {
+                    "session_id": "70498b5e-79f2-4f2e-b257-650b48c35850",
+                    "date": "23-05-2021",
+                    "available_capacity": 0,
+                    "min_age_limit": 45,
+                    "vaccine": "COVISHIELD",
+                    "slots": [
+                        "10:00AM-12:00PM",
+                        "12:00PM-01:00PM"
+                    ],
+                    "available_capacity_dose1": 0,
+                    "available_capacity_dose2": 0
+                },
+                {
+                    "session_id": "f4dac10a-ea39-4ea8-9aaf-1ad7e2923e2b",
+                    "date": "24-05-2021",
+                    "available_capacity": 0,
+                    "min_age_limit": 45,
+                    "vaccine": "COVISHIELD",
+                    "slots": [
+                        "10:00AM-11:00AM",
+                        "11:00AM-12:00PM",
+                        "12:00PM-01:00PM",
+                        "01:00PM-04:00PM"
+                    ],
+                    "available_capacity_dose1": 0,
+                    "available_capacity_dose2": 0
+                }
+            ]
+        },
+        {
+            "center_id": 249040,
+            "name": "Avalahalli CHC",
+            "address": "Old Madras Road",
+            "state_name": "Karnataka",
+            "district_name": "Bangalore Urban",
+            "block_name": "Bengaluru East",
+            "pincode": 560049,
+            "lat": 13,
+            "long": 77,
+            "from": "10:00:00",
+            "to": "16:00:00",
+            "fee_type": "Free",
+            "sessions": [
+                {
+                    "session_id": "7bb5c860-bdf2-4b55-9f23-1ff5bc4a2956",
+                    "date": "22-05-2021",
+                    "available_capacity": 0,
+                    "min_age_limit": 45,
+                    "vaccine": "COVISHIELD",
+                    "slots": [
+                        "10:00AM-11:00AM",
+                        "11:00AM-12:00PM",
+                        "12:00PM-01:00PM",
+                        "01:00PM-04:00PM"
+                    ],
+                    "available_capacity_dose1": 0,
+                    "available_capacity_dose2": 0
+                },
+                {
+                    "session_id": "789d4d33-3b36-4cc4-b450-9fb7343f7b56",
+                    "date": "23-05-2021",
+                    "available_capacity": 0,
+                    "min_age_limit": 45,
+                    "vaccine": "COVISHIELD",
+                    "slots": [
+                        "10:00AM-12:00PM",
+                        "12:00PM-01:00PM"
+                    ],
+                    "available_capacity_dose1": 0,
+                    "available_capacity_dose2": 0
+                },
+                {
+                    "session_id": "54e3c292-f616-4524-9103-435a56ec37c2",
+                    "date": "24-05-2021",
+                    "available_capacity": 0,
+                    "min_age_limit": 45,
+                    "vaccine": "COVISHIELD",
+                    "slots": [
+                        "10:00AM-11:00AM",
+                        "11:00AM-12:00PM",
+                        "12:00PM-01:00PM",
+                        "01:00PM-04:00PM"
+                    ],
+                    "available_capacity_dose1": 0,
+                    "available_capacity_dose2": 0
+                }
+            ]
+        },
+        {
+            "center_id": 635208,
+            "name": "Narayana Hrudayalaya Covaxin",
+            "address": "258 A Hosur Road Anekal Taluk Bommasandra Industrial Area",
+            "state_name": "Karnataka",
+            "district_name": "Bangalore Urban",
+            "block_name": "Anekal",
+            "pincode": 560099,
+            "lat": 12,
+            "long": 77,
+            "from": "09:00:00",
+            "to": "17:00:00",
+            "fee_type": "Paid",
+            "sessions": [
+                {
+                    "session_id": "c49f2e8f-6317-4200-9b28-9344f5023849",
+                    "date": "22-05-2021",
+                    "available_capacity": 0,
+                    "min_age_limit": 18,
+                    "vaccine": "COVAXIN",
+                    "slots": [
+                        "09:00AM-11:00AM",
+                        "11:00AM-01:00PM",
+                        "01:00PM-03:00PM",
+                        "03:00PM-05:00PM"
+                    ],
+                    "available_capacity_dose1": 0,
+                    "available_capacity_dose2": 0
+                }
+            ],
+            "vaccine_fees": [
+                {
+                    "vaccine": "COVAXIN",
+                    "fee": "250"
+                }
+            ]
+        },
+        {
+            "center_id": 249086,
+            "name": "Sondekoppa PHC",
+            "address": "Tavarekere Main Road",
+            "state_name": "Karnataka",
+            "district_name": "Bangalore Urban",
+            "block_name": "Bengaluru North",
+            "pincode": 562130,
+            "lat": 13,
+            "long": 77,
+            "from": "10:00:00",
+            "to": "16:00:00",
+            "fee_type": "Free",
+            "sessions": [
+                {
+                    "session_id": "3d41ede5-0a84-4fac-9390-512db54e05f2",
+                    "date": "22-05-2021",
+                    "available_capacity": 0,
+                    "min_age_limit": 45,
+                    "vaccine": "COVISHIELD",
+                    "slots": [
+                        "10:00AM-11:00AM",
+                        "11:00AM-12:00PM",
+                        "12:00PM-01:00PM",
+                        "01:00PM-04:00PM"
+                    ],
+                    "available_capacity_dose1": 0,
+                    "available_capacity_dose2": 0
+                },
+                {
+                    "session_id": "473fb726-0b01-44e9-a205-ea47ed688f18",
+                    "date": "23-05-2021",
+                    "available_capacity": 0,
+                    "min_age_limit": 45,
+                    "vaccine": "COVISHIELD",
+                    "slots": [
+                        "10:00AM-12:00PM",
+                        "12:00PM-01:00PM"
+                    ],
+                    "available_capacity_dose1": 0,
+                    "available_capacity_dose2": 0
+                },
+                {
+                    "session_id": "2411f316-df99-4bbc-95dd-327aabca4d5a",
+                    "date": "24-05-2021",
+                    "available_capacity": 0,
+                    "min_age_limit": 45,
+                    "vaccine": "COVISHIELD",
+                    "slots": [
+                        "10:00AM-11:00AM",
+                        "11:00AM-12:00PM",
+                        "12:00PM-01:00PM",
+                        "01:00PM-04:00PM"
+                    ],
+                    "available_capacity_dose1": 0,
+                    "available_capacity_dose2": 0
+                }
+            ]
+        },
+        {
+            "center_id": 631383,
+            "name": "Yelahanka TH COVAXIN",
+            "address": "Yelahanka Old Town Behind Veeranjaneya Temple",
+            "state_name": "Karnataka",
+            "district_name": "Bangalore Urban",
+            "block_name": "Bengaluru North",
+            "pincode": 560064,
+            "lat": 13,
+            "long": 77,
+            "from": "10:00:00",
+            "to": "16:00:00",
+            "fee_type": "Free",
+            "sessions": [
+                {
+                    "session_id": "c4584041-1025-4a97-b1fb-00398babd947",
+                    "date": "22-05-2021",
+                    "available_capacity": 0,
+                    "min_age_limit": 45,
+                    "vaccine": "COVAXIN",
+                    "slots": [
+                        "10:00AM-11:00AM",
+                        "11:00AM-12:00PM",
+                        "12:00PM-01:00PM",
+                        "01:00PM-04:00PM"
+                    ],
+                    "available_capacity_dose1": 0,
+                    "available_capacity_dose2": 0
+                },
+                {
+                    "session_id": "05ae1f17-a69b-4000-bf48-33cccc006fe7",
+                    "date": "23-05-2021",
+                    "available_capacity": 0,
+                    "min_age_limit": 45,
+                    "vaccine": "COVAXIN",
+                    "slots": [
+                        "10:00AM-12:00PM",
+                        "12:00PM-01:00PM"
+                    ],
+                    "available_capacity_dose1": 0,
+                    "available_capacity_dose2": 0
+                },
+                {
+                    "session_id": "350fc5c0-420e-41d6-9193-ee4b45c15548",
+                    "date": "24-05-2021",
+                    "available_capacity": 0,
+                    "min_age_limit": 45,
+                    "vaccine": "COVAXIN",
+                    "slots": [
+                        "10:00AM-11:00AM",
+                        "11:00AM-12:00PM",
+                        "12:00PM-01:00PM",
+                        "01:00PM-04:00PM"
+                    ],
+                    "available_capacity_dose1": 0,
+                    "available_capacity_dose2": 0
+                }
+            ]
+        },
+        {
+            "center_id": 605619,
+            "name": "NIMHANS Hospitals",
+            "address": "Lakkasandra Hombegowda Nagar",
+            "state_name": "Karnataka",
+            "district_name": "Bangalore Urban",
+            "block_name": "Bengaluru South",
+            "pincode": 560029,
+            "lat": 12,
+            "long": 77,
+            "from": "10:00:00",
+            "to": "16:00:00",
+            "fee_type": "Free",
+            "sessions": [
+                {
+                    "session_id": "57612393-b630-4f87-9ac3-ae31d65ce74c",
+                    "date": "22-05-2021",
+                    "available_capacity": 0,
+                    "min_age_limit": 45,
+                    "vaccine": "COVISHIELD",
+                    "slots": [
+                        "10:00AM-11:00AM",
+                        "11:00AM-12:00PM",
+                        "12:00PM-01:00PM",
+                        "01:00PM-04:00PM"
+                    ],
+                    "available_capacity_dose1": 0,
+                    "available_capacity_dose2": 0
+                },
+                {
+                    "session_id": "ea89d772-128b-4a96-868b-f25a0c94412d",
+                    "date": "24-05-2021",
+                    "available_capacity": 0,
+                    "min_age_limit": 45,
+                    "vaccine": "COVISHIELD",
+                    "slots": [
+                        "10:00AM-11:00AM",
+                        "11:00AM-12:00PM",
+                        "12:00PM-01:00PM",
+                        "01:00PM-04:00PM"
+                    ],
+                    "available_capacity_dose1": 0,
+                    "available_capacity_dose2": 0
+                }
+            ]
+        },
+        {
+            "center_id": 670792,
+            "name": "Doddathogur SC Singsandra",
+            "address": "Doddathogur Panchaya",
+            "state_name": "Karnataka",
+            "district_name": "Bangalore Urban",
+            "block_name": "Anekal",
+            "pincode": 560100,
+            "lat": 12,
+            "long": 77,
+            "from": "10:00:00",
+            "to": "16:00:00",
+            "fee_type": "Free",
+            "sessions": [
+                {
+                    "session_id": "6edc78af-ebbd-4beb-a716-93b0b20ab285",
+                    "date": "22-05-2021",
+                    "available_capacity": 0,
+                    "min_age_limit": 45,
+                    "vaccine": "COVISHIELD",
+                    "slots": [
+                        "10:00AM-11:00AM",
+                        "11:00AM-12:00PM",
+                        "12:00PM-01:00PM",
+                        "01:00PM-04:00PM"
+                    ],
+                    "available_capacity_dose1": 0,
+                    "available_capacity_dose2": 0
+                }
+            ]
+        },
+        {
+            "center_id": 249041,
+            "name": "Bagaluru PHC",
+            "address": "Jala Hobli",
+            "state_name": "Karnataka",
+            "district_name": "Bangalore Urban",
+            "block_name": "Bengaluru North",
+            "pincode": 562149,
+            "lat": 13,
+            "long": 77,
+            "from": "10:00:00",
+            "to": "16:00:00",
+            "fee_type": "Free",
+            "sessions": [
+                {
+                    "session_id": "a35a2513-dafe-4cd2-8ac2-535a0beb5e72",
+                    "date": "22-05-2021",
+                    "available_capacity": 0,
+                    "min_age_limit": 45,
+                    "vaccine": "COVISHIELD",
+                    "slots": [
+                        "10:00AM-11:00AM",
+                        "11:00AM-12:00PM",
+                        "12:00PM-01:00PM",
+                        "01:00PM-04:00PM"
+                    ],
+                    "available_capacity_dose1": 0,
+                    "available_capacity_dose2": 0
+                },
+                {
+                    "session_id": "116a9b97-df5c-4995-b20c-f809e88b4159",
+                    "date": "23-05-2021",
+                    "available_capacity": 0,
+                    "min_age_limit": 45,
+                    "vaccine": "COVISHIELD",
+                    "slots": [
+                        "10:00AM-12:00PM",
+                        "12:00PM-01:00PM"
+                    ],
+                    "available_capacity_dose1": 0,
+                    "available_capacity_dose2": 0
+                },
+                {
+                    "session_id": "246df1e2-a49e-4c07-93c4-48fa0bd2c923",
+                    "date": "24-05-2021",
+                    "available_capacity": 0,
+                    "min_age_limit": 45,
+                    "vaccine": "COVISHIELD",
+                    "slots": [
+                        "10:00AM-11:00AM",
+                        "11:00AM-12:00PM",
+                        "12:00PM-01:00PM",
+                        "01:00PM-04:00PM"
+                    ],
+                    "available_capacity_dose1": 0,
+                    "available_capacity_dose2": 0
+                }
+            ]
+        },
+        {
+            "center_id": 249087,
+            "name": "Sonnenahalli PHC",
+            "address": "Sonnenahalli Bytha Post Hesaraghatta Hobli Bengaluru North Bengaluru Urban District",
+            "state_name": "Karnataka",
+            "district_name": "Bangalore Urban",
+            "block_name": "Bengaluru North",
+            "pincode": 560089,
+            "lat": 13,
+            "long": 77,
+            "from": "10:00:00",
+            "to": "16:00:00",
+            "fee_type": "Free",
+            "sessions": [
+                {
+                    "session_id": "483790f1-f372-4566-9473-8a8d1a600a8c",
+                    "date": "22-05-2021",
+                    "available_capacity": 0,
+                    "min_age_limit": 45,
+                    "vaccine": "COVISHIELD",
+                    "slots": [
+                        "10:00AM-11:00AM",
+                        "11:00AM-12:00PM",
+                        "12:00PM-01:00PM",
+                        "01:00PM-04:00PM"
+                    ],
+                    "available_capacity_dose1": 0,
+                    "available_capacity_dose2": 0
+                },
+                {
+                    "session_id": "04063c4d-f8ae-4c70-a52f-085be1b758b8",
+                    "date": "23-05-2021",
+                    "available_capacity": 0,
+                    "min_age_limit": 45,
+                    "vaccine": "COVISHIELD",
+                    "slots": [
+                        "10:00AM-12:00PM",
+                        "12:00PM-01:00PM"
+                    ],
+                    "available_capacity_dose1": 0,
+                    "available_capacity_dose2": 0
+                },
+                {
+                    "session_id": "1a3aa59b-1b34-4428-a06b-650a05f7a6e4",
+                    "date": "24-05-2021",
+                    "available_capacity": 0,
+                    "min_age_limit": 45,
+                    "vaccine": "COVISHIELD",
+                    "slots": [
+                        "10:00AM-11:00AM",
+                        "11:00AM-12:00PM",
+                        "12:00PM-01:00PM",
+                        "01:00PM-04:00PM"
+                    ],
+                    "available_capacity_dose1": 0,
+                    "available_capacity_dose2": 0
+                }
+            ]
+        },
+        {
+            "center_id": 249054,
+            "name": "Gopalpura PHC",
+            "address": "Railway Gollahalli Post",
+            "state_name": "Karnataka",
+            "district_name": "Bangalore Urban",
+            "block_name": "Bengaluru North",
+            "pincode": 562123,
+            "lat": 13,
+            "long": 77,
+            "from": "10:00:00",
+            "to": "16:00:00",
+            "fee_type": "Free",
+            "sessions": [
+                {
+                    "session_id": "cd94ad7a-ac96-46ae-bb4d-3a658796073e",
+                    "date": "22-05-2021",
+                    "available_capacity": 0,
+                    "min_age_limit": 45,
+                    "vaccine": "COVISHIELD",
+                    "slots": [
+                        "10:00AM-11:00AM",
+                        "11:00AM-12:00PM",
+                        "12:00PM-01:00PM",
+                        "01:00PM-04:00PM"
+                    ],
+                    "available_capacity_dose1": 0,
+                    "available_capacity_dose2": 0
+                },
+                {
+                    "session_id": "acab59d1-3bda-4aac-863e-de14f0ffcb61",
+                    "date": "23-05-2021",
+                    "available_capacity": 0,
+                    "min_age_limit": 45,
+                    "vaccine": "COVISHIELD",
+                    "slots": [
+                        "10:00AM-12:00PM",
+                        "12:00PM-01:00PM"
+                    ],
+                    "available_capacity_dose1": 0,
+                    "available_capacity_dose2": 0
+                },
+                {
+                    "session_id": "6a3f1480-c845-4699-8c8e-5e27cfd65038",
+                    "date": "24-05-2021",
+                    "available_capacity": 0,
+                    "min_age_limit": 45,
+                    "vaccine": "COVISHIELD",
+                    "slots": [
+                        "10:00AM-11:00AM",
+                        "11:00AM-12:00PM",
+                        "12:00PM-01:00PM",
+                        "01:00PM-04:00PM"
+                    ],
+                    "available_capacity_dose1": 0,
+                    "available_capacity_dose2": 0
+                }
+            ]
+        },
+        {
+            "center_id": 249072,
+            "name": "Kumbalagodu Gollahalli PHC",
+            "address": "Gonipura Main Road",
+            "state_name": "Karnataka",
+            "district_name": "Bangalore Urban",
+            "block_name": "Bengaluru South",
+            "pincode": 560074,
+            "lat": 12,
+            "long": 77,
+            "from": "10:00:00",
+            "to": "16:00:00",
+            "fee_type": "Free",
+            "sessions": [
+                {
+                    "session_id": "94eace49-f119-4e21-a052-93d3717ae7ad",
+                    "date": "22-05-2021",
+                    "available_capacity": 0,
+                    "min_age_limit": 45,
+                    "vaccine": "COVISHIELD",
+                    "slots": [
+                        "10:00AM-11:00AM",
+                        "11:00AM-12:00PM",
+                        "12:00PM-01:00PM",
+                        "01:00PM-04:00PM"
+                    ],
+                    "available_capacity_dose1": 0,
+                    "available_capacity_dose2": 0
+                },
+                {
+                    "session_id": "2d0103b2-49a8-45dc-a6a7-e787c3ab49c1",
+                    "date": "23-05-2021",
+                    "available_capacity": 0,
+                    "min_age_limit": 45,
+                    "vaccine": "COVISHIELD",
+                    "slots": [
+                        "10:00AM-12:00PM",
+                        "12:00PM-01:00PM"
+                    ],
+                    "available_capacity_dose1": 0,
+                    "available_capacity_dose2": 0
+                },
+                {
+                    "session_id": "204a1d72-d77f-48e2-93b2-03fc6ac44406",
+                    "date": "24-05-2021",
+                    "available_capacity": 0,
+                    "min_age_limit": 45,
+                    "vaccine": "COVISHIELD",
+                    "slots": [
+                        "10:00AM-11:00AM",
+                        "11:00AM-12:00PM",
+                        "12:00PM-01:00PM",
+                        "01:00PM-04:00PM"
+                    ],
+                    "available_capacity_dose1": 0,
+                    "available_capacity_dose2": 0
+                }
+            ]
+        },
+        {
+            "center_id": 249053,
+            "name": "Dommasandra PHC",
+            "address": "Sarjapura Main Road",
+            "state_name": "Karnataka",
+            "district_name": "Bangalore Urban",
+            "block_name": "Anekal",
+            "pincode": 562125,
+            "lat": 12,
+            "long": 77,
+            "from": "10:00:00",
+            "to": "13:00:00",
+            "fee_type": "Free",
+            "sessions": [
+                {
+                    "session_id": "6ff85c03-19d6-43ad-ace7-548d8ac45ff3",
+                    "date": "22-05-2021",
+                    "available_capacity": 0,
+                    "min_age_limit": 45,
+                    "vaccine": "COVISHIELD",
+                    "slots": [
+                        "10:00AM-12:00PM",
+                        "12:00PM-01:00PM"
+                    ],
+                    "available_capacity_dose1": 0,
+                    "available_capacity_dose2": 0
+                },
+                {
+                    "session_id": "4ee0c7cc-2af8-4bd8-ad65-78cd47d596f2",
+                    "date": "23-05-2021",
+                    "available_capacity": 0,
+                    "min_age_limit": 45,
+                    "vaccine": "COVISHIELD",
+                    "slots": [
+                        "10:00AM-12:00PM",
+                        "12:00PM-01:00PM"
+                    ],
+                    "available_capacity_dose1": 0,
+                    "available_capacity_dose2": 0
+                },
+                {
+                    "session_id": "73c02c7d-96b5-4ad8-99e6-80861fc60429",
+                    "date": "24-05-2021",
+                    "available_capacity": 0,
+                    "min_age_limit": 45,
+                    "vaccine": "COVISHIELD",
+                    "slots": [
+                        "10:00AM-11:00AM",
+                        "11:00AM-12:00PM",
+                        "12:00PM-01:00PM",
+                        "01:00PM-04:00PM"
+                    ],
+                    "available_capacity_dose1": 0,
+                    "available_capacity_dose2": 0
+                }
+            ]
+        },
+        {
+            "center_id": 683084,
+            "name": "BHADRIPURA Sub Centre",
+            "address": "Bhadripura Sc",
+            "state_name": "Karnataka",
+            "district_name": "Bangalore Urban",
+            "block_name": "Anekal",
+            "pincode": 562106,
+            "lat": 12,
+            "long": 77,
+            "from": "10:00:00",
+            "to": "13:00:00",
+            "fee_type": "Free",
+            "sessions": [
+                {
+                    "session_id": "5c5e7dfd-7304-4730-8175-0054dbbff655",
+                    "date": "22-05-2021",
+                    "available_capacity": 0,
+                    "min_age_limit": 45,
+                    "vaccine": "COVISHIELD",
+                    "slots": [
+                        "10:00AM-12:00PM",
+                        "12:00PM-01:00PM"
+                    ],
+                    "available_capacity_dose1": 0,
+                    "available_capacity_dose2": 0
+                }
+            ]
+        },
+        {
+            "center_id": 249051,
+            "name": "Chikkabanavara PHC",
+            "address": "Dwarakanagar",
+            "state_name": "Karnataka",
+            "district_name": "Bangalore Urban",
+            "block_name": "Bengaluru North",
+            "pincode": 560090,
+            "lat": 13,
+            "long": 77,
+            "from": "10:00:00",
+            "to": "16:00:00",
+            "fee_type": "Free",
+            "sessions": [
+                {
+                    "session_id": "efd9965b-1e3b-421f-a123-74711be31113",
+                    "date": "22-05-2021",
+                    "available_capacity": 0,
+                    "min_age_limit": 45,
+                    "vaccine": "COVISHIELD",
+                    "slots": [
+                        "10:00AM-11:00AM",
+                        "11:00AM-12:00PM",
+                        "12:00PM-01:00PM",
+                        "01:00PM-04:00PM"
+                    ],
+                    "available_capacity_dose1": 0,
+                    "available_capacity_dose2": 0
+                },
+                {
+                    "session_id": "61082989-a3b8-4df9-ae2c-fc4863a62eaa",
+                    "date": "23-05-2021",
+                    "available_capacity": 0,
+                    "min_age_limit": 45,
+                    "vaccine": "COVISHIELD",
+                    "slots": [
+                        "10:00AM-12:00PM",
+                        "12:00PM-01:00PM"
+                    ],
+                    "available_capacity_dose1": 0,
+                    "available_capacity_dose2": 0
+                },
+                {
+                    "session_id": "f1539277-f310-4d62-b5b2-790ea11c11bd",
+                    "date": "24-05-2021",
+                    "available_capacity": 0,
+                    "min_age_limit": 45,
+                    "vaccine": "COVISHIELD",
+                    "slots": [
+                        "10:00AM-11:00AM",
+                        "11:00AM-12:00PM",
+                        "12:00PM-01:00PM",
+                        "01:00PM-04:00PM"
+                    ],
+                    "available_capacity_dose1": 0,
+                    "available_capacity_dose2": 0
+                }
+            ]
+        },
+        {
+            "center_id": 249083,
+            "name": "Marasuru PHC",
+            "address": "Marasuru Main Road",
+            "state_name": "Karnataka",
+            "district_name": "Bangalore Urban",
+            "block_name": "Anekal",
+            "pincode": 562106,
+            "lat": 12,
+            "long": 77,
+            "from": "10:00:00",
+            "to": "13:00:00",
+            "fee_type": "Free",
+            "sessions": [
+                {
+                    "session_id": "690b97f9-de11-4c0e-92e1-986d1d47d097",
+                    "date": "22-05-2021",
+                    "available_capacity": 0,
+                    "min_age_limit": 45,
+                    "vaccine": "COVISHIELD",
+                    "slots": [
+                        "10:00AM-12:00PM",
+                        "12:00PM-01:00PM"
+                    ],
+                    "available_capacity_dose1": 0,
+                    "available_capacity_dose2": 0
+                },
+                {
+                    "session_id": "75f398b1-c2c4-4a57-899b-6c0a912f6c8f",
+                    "date": "23-05-2021",
+                    "available_capacity": 0,
+                    "min_age_limit": 45,
+                    "vaccine": "COVISHIELD",
+                    "slots": [
+                        "10:00AM-12:00PM",
+                        "12:00PM-01:00PM"
+                    ],
+                    "available_capacity_dose1": 0,
+                    "available_capacity_dose2": 0
+                },
+                {
+                    "session_id": "76cada73-a39a-4458-a718-1ee4fa76ef3d",
+                    "date": "24-05-2021",
+                    "available_capacity": 0,
+                    "min_age_limit": 45,
+                    "vaccine": "COVISHIELD",
+                    "slots": [
+                        "10:00AM-11:00AM",
+                        "11:00AM-12:00PM",
+                        "12:00PM-01:00PM",
+                        "01:00PM-04:00PM"
+                    ],
+                    "available_capacity_dose1": 0,
+                    "available_capacity_dose2": 0
+                }
+            ]
+        },
+        {
+            "center_id": 249076,
+            "name": "KODATHI PHC",
+            "address": "Ambedkarnagar",
+            "state_name": "Karnataka",
+            "district_name": "Bangalore Urban",
+            "block_name": "Bengaluru East",
+            "pincode": 560035,
+            "lat": 12,
+            "long": 77,
+            "from": "10:00:00",
+            "to": "16:00:00",
+            "fee_type": "Free",
+            "sessions": [
+                {
+                    "session_id": "4aadad0c-1183-4827-8fdb-c6246afc99ec",
+                    "date": "22-05-2021",
+                    "available_capacity": 0,
+                    "min_age_limit": 45,
+                    "vaccine": "COVISHIELD",
+                    "slots": [
+                        "10:00AM-11:00AM",
+                        "11:00AM-12:00PM",
+                        "12:00PM-01:00PM",
+                        "01:00PM-04:00PM"
+                    ],
+                    "available_capacity_dose1": 0,
+                    "available_capacity_dose2": 0
+                },
+                {
+                    "session_id": "7c5f301c-2a3e-474e-a515-cd057a6cee57",
+                    "date": "23-05-2021",
+                    "available_capacity": 0,
+                    "min_age_limit": 45,
+                    "vaccine": "COVISHIELD",
+                    "slots": [
+                        "10:00AM-11:00AM",
+                        "11:00AM-12:00PM",
+                        "12:00PM-01:00PM",
+                        "01:00PM-04:00PM"
+                    ],
+                    "available_capacity_dose1": 0,
+                    "available_capacity_dose2": 0
+                },
+                {
+                    "session_id": "fcb47ad0-c007-4527-9277-9a84386a58df",
+                    "date": "24-05-2021",
+                    "available_capacity": 0,
+                    "min_age_limit": 45,
+                    "vaccine": "COVISHIELD",
+                    "slots": [
+                        "10:00AM-11:00AM",
+                        "11:00AM-12:00PM",
+                        "12:00PM-01:00PM",
+                        "01:00PM-04:00PM"
+                    ],
+                    "available_capacity_dose1": 0,
+                    "available_capacity_dose2": 0
+                }
+            ]
+        },
+        {
+            "center_id": 249075,
+            "name": "Kannuru PHC",
+            "address": "Yelahanka Main Road",
+            "state_name": "Karnataka",
+            "district_name": "Bangalore Urban",
+            "block_name": "Bengaluru East",
+            "pincode": 562149,
+            "lat": 13,
+            "long": 77,
+            "from": "10:00:00",
+            "to": "16:00:00",
+            "fee_type": "Free",
+            "sessions": [
+                {
+                    "session_id": "23d9f10b-e39a-4609-ad58-6442b966ca81",
+                    "date": "22-05-2021",
+                    "available_capacity": 0,
+                    "min_age_limit": 45,
+                    "vaccine": "COVISHIELD",
+                    "slots": [
+                        "10:00AM-11:00AM",
+                        "11:00AM-12:00PM",
+                        "12:00PM-01:00PM",
+                        "01:00PM-04:00PM"
+                    ],
+                    "available_capacity_dose1": 0,
+                    "available_capacity_dose2": 0
+                },
+                {
+                    "session_id": "83bb3dee-ba8d-4579-bee6-c05b4faa5697",
+                    "date": "23-05-2021",
+                    "available_capacity": 0,
+                    "min_age_limit": 45,
+                    "vaccine": "COVISHIELD",
+                    "slots": [
+                        "10:00AM-12:00PM",
+                        "12:00PM-01:00PM"
+                    ],
+                    "available_capacity_dose1": 0,
+                    "available_capacity_dose2": 0
+                },
+                {
+                    "session_id": "1667e95a-2012-410e-99d1-bb9efc0a0809",
+                    "date": "24-05-2021",
+                    "available_capacity": 0,
+                    "min_age_limit": 45,
+                    "vaccine": "COVISHIELD",
+                    "slots": [
+                        "10:00AM-11:00AM",
+                        "11:00AM-12:00PM",
+                        "12:00PM-01:00PM",
+                        "01:00PM-04:00PM"
+                    ],
+                    "available_capacity_dose1": 0,
+                    "available_capacity_dose2": 0
+                }
+            ]
+        },
+        {
+            "center_id": 644158,
+            "name": "COMPOSITE HOSPITAL C R P F",
+            "address": "COMPOSITE HOSPITAL C R P F YELAHANKA",
+            "state_name": "Karnataka",
+            "district_name": "Bangalore Urban",
+            "block_name": "Bengaluru North",
+            "pincode": 560064,
+            "lat": 13,
+            "long": 77,
+            "from": "09:00:00",
+            "to": "18:00:00",
+            "fee_type": "Free",
+            "sessions": [
+                {
+                    "session_id": "e3a44878-2b5b-4d47-a382-8e7e73c294d8",
+                    "date": "22-05-2021",
+                    "available_capacity": 0,
+                    "min_age_limit": 45,
+                    "vaccine": "COVISHIELD",
+                    "slots": [
+                        "09:00AM-11:00AM",
+                        "11:00AM-01:00PM",
+                        "01:00PM-03:00PM",
+                        "03:00PM-06:00PM"
+                    ],
+                    "available_capacity_dose1": 0,
+                    "available_capacity_dose2": 0
+                }
+            ]
+        },
+        {
+            "center_id": 640948,
+            "name": "NIMHANS Hospitals COVAXIN",
+            "address": "Lakkasandra Hombegowda Nagar",
+            "state_name": "Karnataka",
+            "district_name": "Bangalore Urban",
+            "block_name": "Bengaluru South",
+            "pincode": 560029,
+            "lat": 12,
+            "long": 77,
+            "from": "10:00:00",
+            "to": "16:00:00",
+            "fee_type": "Free",
+            "sessions": [
+                {
+                    "session_id": "72b201da-d09a-4a6d-b697-55f37ca9d3c5",
+                    "date": "22-05-2021",
+                    "available_capacity": 0,
+                    "min_age_limit": 45,
+                    "vaccine": "COVAXIN",
+                    "slots": [
+                        "10:00AM-11:00AM",
+                        "11:00AM-12:00PM",
+                        "12:00PM-01:00PM",
+                        "01:00PM-04:00PM"
+                    ],
+                    "available_capacity_dose1": 0,
+                    "available_capacity_dose2": 0
+                },
+                {
+                    "session_id": "999d2733-794b-4611-9f99-8ac6098a55b0",
+                    "date": "24-05-2021",
+                    "available_capacity": 0,
+                    "min_age_limit": 45,
+                    "vaccine": "COVAXIN",
+                    "slots": [
+                        "10:00AM-11:00AM",
+                        "11:00AM-12:00PM",
+                        "12:00PM-01:00PM",
+                        "01:00PM-04:00PM"
+                    ],
+                    "available_capacity_dose1": 0,
+                    "available_capacity_dose2": 0
+                }
+            ]
+        },
+        {
+            "center_id": 665256,
+            "name": "SHIVAKOTE Sub Centre",
+            "address": "Shivakote Old Panchayath Office Shivakote Post 560089",
+            "state_name": "Karnataka",
+            "district_name": "Bangalore Urban",
+            "block_name": "Bengaluru North",
+            "pincode": 560089,
+            "lat": 0,
+            "long": 0,
+            "from": "10:00:00",
+            "to": "16:00:00",
+            "fee_type": "Free",
+            "sessions": [
+                {
+                    "session_id": "71966ebb-e1a1-42f9-ba7f-95d416413886",
+                    "date": "22-05-2021",
+                    "available_capacity": 0,
+                    "min_age_limit": 45,
+                    "vaccine": "COVISHIELD",
+                    "slots": [
+                        "10:00AM-11:00AM",
+                        "11:00AM-12:00PM",
+                        "12:00PM-01:00PM",
+                        "01:00PM-04:00PM"
+                    ],
+                    "available_capacity_dose1": 0,
+                    "available_capacity_dose2": 0
+                }
+            ]
+        },
+        {
+            "center_id": 249084,
+            "name": "Rajanukunte PHC",
+            "address": "Doddaballapur Main Road",
+            "state_name": "Karnataka",
+            "district_name": "Bangalore Urban",
+            "block_name": "Bengaluru North",
+            "pincode": 560064,
+            "lat": 13,
+            "long": 77,
+            "from": "10:00:00",
+            "to": "16:00:00",
+            "fee_type": "Free",
+            "sessions": [
+                {
+                    "session_id": "10fb995a-1e4d-4dc6-a183-cb36c6aaad1d",
+                    "date": "22-05-2021",
+                    "available_capacity": 0,
+                    "min_age_limit": 45,
+                    "vaccine": "COVISHIELD",
+                    "slots": [
+                        "10:00AM-11:00AM",
+                        "11:00AM-12:00PM",
+                        "12:00PM-01:00PM",
+                        "01:00PM-04:00PM"
+                    ],
+                    "available_capacity_dose1": 0,
+                    "available_capacity_dose2": 0
+                },
+                {
+                    "session_id": "b27a57a4-7d77-4b5d-86f8-3771afef7211",
+                    "date": "23-05-2021",
+                    "available_capacity": 0,
+                    "min_age_limit": 45,
+                    "vaccine": "COVISHIELD",
+                    "slots": [
+                        "10:00AM-12:00PM",
+                        "12:00PM-01:00PM"
+                    ],
+                    "available_capacity_dose1": 0,
+                    "available_capacity_dose2": 0
+                },
+                {
+                    "session_id": "4b9ded8d-e109-4ae4-8a05-b85bb5fc9538",
+                    "date": "24-05-2021",
+                    "available_capacity": 0,
+                    "min_age_limit": 45,
+                    "vaccine": "COVISHIELD",
+                    "slots": [
+                        "10:00AM-11:00AM",
+                        "11:00AM-12:00PM",
+                        "12:00PM-01:00PM",
+                        "01:00PM-04:00PM"
+                    ],
+                    "available_capacity_dose1": 0,
+                    "available_capacity_dose2": 0
+                }
+            ]
+        },
+        {
+            "center_id": 631294,
+            "name": "ANEKAL TH COVAXIN",
+            "address": "Weaver Colony Anekal",
+            "state_name": "Karnataka",
+            "district_name": "Bangalore Urban",
+            "block_name": "Anekal",
+            "pincode": 560106,
+            "lat": 12,
+            "long": 77,
+            "from": "10:00:00",
+            "to": "13:00:00",
+            "fee_type": "Free",
+            "sessions": [
+                {
+                    "session_id": "7dc1c105-f0a6-420d-8583-ce8a4575b7d2",
+                    "date": "22-05-2021",
+                    "available_capacity": 0,
+                    "min_age_limit": 45,
+                    "vaccine": "COVAXIN",
+                    "slots": [
+                        "10:00AM-12:00PM",
+                        "12:00PM-01:00PM"
+                    ],
+                    "available_capacity_dose1": 0,
+                    "available_capacity_dose2": 0
+                },
+                {
+                    "session_id": "2d349572-ecc6-43e5-b9bd-0d042543d5c9",
+                    "date": "23-05-2021",
+                    "available_capacity": 0,
+                    "min_age_limit": 45,
+                    "vaccine": "COVAXIN",
+                    "slots": [
+                        "10:00AM-12:00PM",
+                        "12:00PM-01:00PM"
+                    ],
+                    "available_capacity_dose1": 0,
+                    "available_capacity_dose2": 0
+                },
+                {
+                    "session_id": "72adf8df-e2a9-4314-8b15-c291df735bf9",
+                    "date": "24-05-2021",
+                    "available_capacity": 0,
+                    "min_age_limit": 45,
+                    "vaccine": "COVAXIN",
+                    "slots": [
+                        "10:00AM-11:00AM",
+                        "11:00AM-12:00PM",
+                        "12:00PM-01:00PM",
+                        "01:00PM-04:00PM"
+                    ],
+                    "available_capacity_dose1": 0,
+                    "available_capacity_dose2": 0
+                }
+            ]
+        },
+        {
+            "center_id": 249042,
+            "name": "Balluru PHC",
+            "address": "Dasanapura Road",
+            "state_name": "Karnataka",
+            "district_name": "Bangalore Urban",
+            "block_name": "Anekal",
+            "pincode": 562107,
+            "lat": 12,
+            "long": 77,
+            "from": "10:00:00",
+            "to": "13:00:00",
+            "fee_type": "Free",
+            "sessions": [
+                {
+                    "session_id": "a05491c5-ef04-46d3-b681-080b4de276a2",
+                    "date": "22-05-2021",
+                    "available_capacity": 0,
+                    "min_age_limit": 45,
+                    "vaccine": "COVISHIELD",
+                    "slots": [
+                        "10:00AM-12:00PM",
+                        "12:00PM-01:00PM"
+                    ],
+                    "available_capacity_dose1": 0,
+                    "available_capacity_dose2": 0
+                },
+                {
+                    "session_id": "ec7b83c2-9437-4812-b170-1ed154270170",
+                    "date": "23-05-2021",
+                    "available_capacity": 0,
+                    "min_age_limit": 45,
+                    "vaccine": "COVISHIELD",
+                    "slots": [
+                        "10:00AM-12:00PM",
+                        "12:00PM-01:00PM"
+                    ],
+                    "available_capacity_dose1": 0,
+                    "available_capacity_dose2": 0
+                },
+                {
+                    "session_id": "d244cc8e-6835-49d5-94ee-ef3f6162156e",
+                    "date": "24-05-2021",
+                    "available_capacity": 0,
+                    "min_age_limit": 45,
+                    "vaccine": "COVISHIELD",
+                    "slots": [
+                        "10:00AM-11:00AM",
+                        "11:00AM-12:00PM",
+                        "12:00PM-01:00PM",
+                        "01:00PM-04:00PM"
+                    ],
+                    "available_capacity_dose1": 0,
+                    "available_capacity_dose2": 0
+                }
+            ]
+        },
+        {
+            "center_id": 249080,
+            "name": "Mahanthalingapura PHC",
+            "address": "Harohalli Main Road",
+            "state_name": "Karnataka",
+            "district_name": "Bangalore Urban",
+            "block_name": "Anekal",
+            "pincode": 560083,
+            "lat": 12,
+            "long": 77,
+            "from": "10:00:00",
+            "to": "13:00:00",
+            "fee_type": "Free",
+            "sessions": [
+                {
+                    "session_id": "c40e93dd-0f2a-44a6-9c43-9d21d599de8b",
+                    "date": "22-05-2021",
+                    "available_capacity": 0,
+                    "min_age_limit": 45,
+                    "vaccine": "COVISHIELD",
+                    "slots": [
+                        "10:00AM-12:00PM",
+                        "12:00PM-01:00PM"
+                    ],
+                    "available_capacity_dose1": 0,
+                    "available_capacity_dose2": 0
+                },
+                {
+                    "session_id": "3e4ac35c-642e-4ed1-b2fa-1184f51f9553",
+                    "date": "23-05-2021",
+                    "available_capacity": 0,
+                    "min_age_limit": 45,
+                    "vaccine": "COVISHIELD",
+                    "slots": [
+                        "10:00AM-12:00PM",
+                        "12:00PM-01:00PM"
+                    ],
+                    "available_capacity_dose1": 0,
+                    "available_capacity_dose2": 0
+                },
+                {
+                    "session_id": "84661e31-d3a3-4f53-a371-2dd9122a9bb3",
+                    "date": "24-05-2021",
+                    "available_capacity": 0,
+                    "min_age_limit": 45,
+                    "vaccine": "COVISHIELD",
+                    "slots": [
+                        "10:00AM-11:00AM",
+                        "11:00AM-12:00PM",
+                        "12:00PM-01:00PM",
+                        "01:00PM-04:00PM"
+                    ],
+                    "available_capacity_dose1": 0,
+                    "available_capacity_dose2": 0
+                }
+            ]
+        },
+        {
+            "center_id": 249052,
+            "name": "Chikkajala PHC",
+            "address": "Airport Main Road",
+            "state_name": "Karnataka",
+            "district_name": "Bangalore Urban",
+            "block_name": "Bengaluru North",
+            "pincode": 562157,
+            "lat": 13,
+            "long": 77,
+            "from": "10:00:00",
+            "to": "16:00:00",
+            "fee_type": "Free",
+            "sessions": [
+                {
+                    "session_id": "067d9632-91fc-466a-8da5-c03e4df75c89",
+                    "date": "22-05-2021",
+                    "available_capacity": 0,
+                    "min_age_limit": 45,
+                    "vaccine": "COVISHIELD",
+                    "slots": [
+                        "10:00AM-11:00AM",
+                        "11:00AM-12:00PM",
+                        "12:00PM-01:00PM",
+                        "01:00PM-04:00PM"
+                    ],
+                    "available_capacity_dose1": 0,
+                    "available_capacity_dose2": 0
+                },
+                {
+                    "session_id": "3f9f3cf0-ae7d-4dc6-ad9e-e1f6f576297b",
+                    "date": "23-05-2021",
+                    "available_capacity": 0,
+                    "min_age_limit": 45,
+                    "vaccine": "COVISHIELD",
+                    "slots": [
+                        "10:00AM-12:00PM",
+                        "12:00PM-01:00PM"
+                    ],
+                    "available_capacity_dose1": 0,
+                    "available_capacity_dose2": 0
+                },
+                {
+                    "session_id": "d9b2d797-0cf4-4b0b-938b-6c06a86e690a",
+                    "date": "24-05-2021",
+                    "available_capacity": 0,
+                    "min_age_limit": 45,
+                    "vaccine": "COVISHIELD",
+                    "slots": [
+                        "10:00AM-11:00AM",
+                        "11:00AM-12:00PM",
+                        "12:00PM-01:00PM",
+                        "01:00PM-04:00PM"
+                    ],
+                    "available_capacity_dose1": 0,
+                    "available_capacity_dose2": 0
+                }
+            ]
+        },
+        {
+            "center_id": 249069,
+            "name": "Hesaraghatta PHC",
+            "address": "Near IIHR",
+            "state_name": "Karnataka",
+            "district_name": "Bangalore Urban",
+            "block_name": "Bengaluru North",
+            "pincode": 560088,
+            "lat": 13,
+            "long": 77,
+            "from": "10:00:00",
+            "to": "16:00:00",
+            "fee_type": "Free",
+            "sessions": [
+                {
+                    "session_id": "e5703f73-1cb1-461c-9c1d-4c6c2281982b",
+                    "date": "22-05-2021",
+                    "available_capacity": 0,
+                    "min_age_limit": 45,
+                    "vaccine": "COVISHIELD",
+                    "slots": [
+                        "10:00AM-11:00AM",
+                        "11:00AM-12:00PM",
+                        "12:00PM-01:00PM",
+                        "01:00PM-04:00PM"
+                    ],
+                    "available_capacity_dose1": 0,
+                    "available_capacity_dose2": 0
+                },
+                {
+                    "session_id": "01c528bf-f152-46fa-a1ec-bd267cc65a99",
+                    "date": "23-05-2021",
+                    "available_capacity": 0,
+                    "min_age_limit": 45,
+                    "vaccine": "COVISHIELD",
+                    "slots": [
+                        "10:00AM-12:00PM",
+                        "12:00PM-01:00PM"
+                    ],
+                    "available_capacity_dose1": 0,
+                    "available_capacity_dose2": 0
+                },
+                {
+                    "session_id": "35a0bd57-bfa8-412c-9be9-b2d6d53fa975",
+                    "date": "24-05-2021",
+                    "available_capacity": 0,
+                    "min_age_limit": 45,
+                    "vaccine": "COVISHIELD",
+                    "slots": [
+                        "10:00AM-11:00AM",
+                        "11:00AM-12:00PM",
+                        "12:00PM-01:00PM",
+                        "01:00PM-04:00PM"
+                    ],
+                    "available_capacity_dose1": 0,
+                    "available_capacity_dose2": 0
+                }
+            ]
+        },
+        {
+            "center_id": 629555,
+            "name": "COMMAND HOSPITAL AIR FORCE",
+            "address": "COMMAND HOSPITAL AIR FORCE CAMBRIDGE ROADCAMBRIDGE LAYOUT JOGUPALYA BANGALORE",
+            "state_name": "Karnataka",
+            "district_name": "Bangalore Urban",
+            "block_name": "Bengaluru North",
+            "pincode": 560007,
+            "lat": 12,
+            "long": 77,
+            "from": "09:00:00",
+            "to": "16:00:00",
+            "fee_type": "Free",
+            "sessions": [
+                {
+                    "session_id": "21a81dbb-273b-4282-a266-8dbc256b1df8",
+                    "date": "22-05-2021",
+                    "available_capacity": 0,
+                    "min_age_limit": 45,
+                    "vaccine": "COVISHIELD",
+                    "slots": [
+                        "09:00AM-11:00AM",
+                        "11:00AM-01:00PM",
+                        "01:00PM-03:00PM",
+                        "03:00PM-04:00PM"
+                    ],
+                    "available_capacity_dose1": 0,
+                    "available_capacity_dose2": 0
+                }
+            ]
+        },
+        {
+            "center_id": 519615,
+            "name": "Kadusonnappanahalli PHC",
+            "address": "Bagaluru Main Road",
+            "state_name": "Karnataka",
+            "district_name": "Bangalore Urban",
+            "block_name": "Bengaluru East",
+            "pincode": 562149,
+            "lat": 13,
+            "long": 77,
+            "from": "10:00:00",
+            "to": "16:00:00",
+            "fee_type": "Free",
+            "sessions": [
+                {
+                    "session_id": "9ae482ae-3fd6-4d20-b5f0-31d732aa32d1",
+                    "date": "22-05-2021",
+                    "available_capacity": 0,
+                    "min_age_limit": 45,
+                    "vaccine": "COVISHIELD",
+                    "slots": [
+                        "10:00AM-11:00AM",
+                        "11:00AM-12:00PM",
+                        "12:00PM-01:00PM",
+                        "01:00PM-04:00PM"
+                    ],
+                    "available_capacity_dose1": 0,
+                    "available_capacity_dose2": 0
+                },
+                {
+                    "session_id": "c8d93da6-431c-4998-b04b-6c0034691708",
+                    "date": "23-05-2021",
+                    "available_capacity": 0,
+                    "min_age_limit": 45,
+                    "vaccine": "COVISHIELD",
+                    "slots": [
+                        "10:00AM-12:00PM",
+                        "12:00PM-01:00PM"
+                    ],
+                    "available_capacity_dose1": 0,
+                    "available_capacity_dose2": 0
+                },
+                {
+                    "session_id": "dccc845a-b159-4b32-9501-b8d57e07576c",
+                    "date": "24-05-2021",
+                    "available_capacity": 0,
+                    "min_age_limit": 45,
+                    "vaccine": "COVISHIELD",
+                    "slots": [
+                        "10:00AM-11:00AM",
+                        "11:00AM-12:00PM",
+                        "12:00PM-01:00PM",
+                        "01:00PM-04:00PM"
+                    ],
+                    "available_capacity_dose1": 0,
+                    "available_capacity_dose2": 0
+                }
+            ]
+        },
+        {
+            "center_id": 249073,
+            "name": "Kaggalipura CHC",
+            "address": "Kanakapura Main Road",
+            "state_name": "Karnataka",
+            "district_name": "Bangalore Urban",
+            "block_name": "Bengaluru South",
+            "pincode": 560116,
+            "lat": 12,
+            "long": 77,
+            "from": "10:00:00",
+            "to": "16:00:00",
+            "fee_type": "Free",
+            "sessions": [
+                {
+                    "session_id": "ef94d501-6e4c-4411-8f38-f5fbdd7a7075",
+                    "date": "22-05-2021",
+                    "available_capacity": 0,
+                    "min_age_limit": 45,
+                    "vaccine": "COVISHIELD",
+                    "slots": [
+                        "10:00AM-11:00AM",
+                        "11:00AM-12:00PM",
+                        "12:00PM-01:00PM",
+                        "01:00PM-04:00PM"
+                    ],
+                    "available_capacity_dose1": 0,
+                    "available_capacity_dose2": 0
+                },
+                {
+                    "session_id": "54a6e613-0421-438b-887b-8bc37e500219",
+                    "date": "23-05-2021",
+                    "available_capacity": 0,
+                    "min_age_limit": 45,
+                    "vaccine": "COVISHIELD",
+                    "slots": [
+                        "10:00AM-12:00PM",
+                        "12:00PM-01:00PM"
+                    ],
+                    "available_capacity_dose1": 0,
+                    "available_capacity_dose2": 0
+                },
+                {
+                    "session_id": "fc956673-cd29-42dd-b85e-c73312dd330b",
+                    "date": "24-05-2021",
+                    "available_capacity": 0,
+                    "min_age_limit": 45,
+                    "vaccine": "COVISHIELD",
+                    "slots": [
+                        "10:00AM-11:00AM",
+                        "11:00AM-12:00PM",
+                        "12:00PM-01:00PM",
+                        "01:00PM-04:00PM"
+                    ],
+                    "available_capacity_dose1": 0,
+                    "available_capacity_dose2": 0
+                }
+            ]
+        },
+        {
+            "center_id": 573111,
+            "name": "Makali PHC 1",
+            "address": "Alur Main Road",
+            "state_name": "Karnataka",
+            "district_name": "Bangalore Urban",
+            "block_name": "Bengaluru North",
+            "pincode": 562162,
+            "lat": 13,
+            "long": 77,
+            "from": "10:00:00",
+            "to": "16:00:00",
+            "fee_type": "Free",
+            "sessions": [
+                {
+                    "session_id": "15df44e1-4b65-4fab-b0e2-4d2b70695555",
+                    "date": "22-05-2021",
+                    "available_capacity": 0,
+                    "min_age_limit": 45,
+                    "vaccine": "COVISHIELD",
+                    "slots": [
+                        "10:00AM-11:00AM",
+                        "11:00AM-12:00PM",
+                        "12:00PM-01:00PM",
+                        "01:00PM-04:00PM"
+                    ],
+                    "available_capacity_dose1": 0,
+                    "available_capacity_dose2": 0
+                },
+                {
+                    "session_id": "f02824c1-8979-4325-929e-c1b531dbd2e0",
+                    "date": "23-05-2021",
+                    "available_capacity": 0,
+                    "min_age_limit": 45,
+                    "vaccine": "COVISHIELD",
+                    "slots": [
+                        "10:00AM-12:00PM",
+                        "12:00PM-01:00PM"
+                    ],
+                    "available_capacity_dose1": 0,
+                    "available_capacity_dose2": 0
+                },
+                {
+                    "session_id": "04e8a697-caf2-4859-ac5d-a852006e0fa6",
+                    "date": "24-05-2021",
+                    "available_capacity": 0,
+                    "min_age_limit": 45,
+                    "vaccine": "COVISHIELD",
+                    "slots": [
+                        "10:00AM-11:00AM",
+                        "11:00AM-12:00PM",
+                        "12:00PM-01:00PM",
+                        "01:00PM-04:00PM"
+                    ],
+                    "available_capacity_dose1": 0,
+                    "available_capacity_dose2": 0
+                }
+            ]
+        },
+        {
+            "center_id": 249049,
+            "name": "Chandapura PHC",
+            "address": "Hosur Main Road",
+            "state_name": "Karnataka",
+            "district_name": "Bangalore Urban",
+            "block_name": "Anekal",
+            "pincode": 560099,
+            "lat": 12,
+            "long": 77,
+            "from": "10:00:00",
+            "to": "13:00:00",
+            "fee_type": "Free",
+            "sessions": [
+                {
+                    "session_id": "e14037c4-78e8-4463-936d-c4736c410dec",
+                    "date": "22-05-2021",
+                    "available_capacity": 0,
+                    "min_age_limit": 45,
+                    "vaccine": "COVISHIELD",
+                    "slots": [
+                        "10:00AM-12:00PM",
+                        "12:00PM-01:00PM"
+                    ],
+                    "available_capacity_dose1": 0,
+                    "available_capacity_dose2": 0
+                },
+                {
+                    "session_id": "de1cccb2-f56f-44d0-846a-3fb18c7a7616",
+                    "date": "23-05-2021",
+                    "available_capacity": 0,
+                    "min_age_limit": 45,
+                    "vaccine": "COVISHIELD",
+                    "slots": [
+                        "10:00AM-12:00PM",
+                        "12:00PM-01:00PM"
+                    ],
+                    "available_capacity_dose1": 0,
+                    "available_capacity_dose2": 0
+                },
+                {
+                    "session_id": "8277f33c-9acd-424f-b216-000eacff5be1",
+                    "date": "24-05-2021",
+                    "available_capacity": 0,
+                    "min_age_limit": 45,
+                    "vaccine": "COVISHIELD",
+                    "slots": [
+                        "10:00AM-11:00AM",
+                        "11:00AM-12:00PM",
+                        "12:00PM-01:00PM",
+                        "01:00PM-04:00PM"
+                    ],
+                    "available_capacity_dose1": 0,
+                    "available_capacity_dose2": 0
+                }
+            ]
+        },
+        {
+            "center_id": 632833,
+            "name": "ASC CENTRE",
+            "address": "AGRAHAM POST BENGALURU",
+            "state_name": "Karnataka",
+            "district_name": "Bangalore Urban",
+            "block_name": "Bengaluru North",
+            "pincode": 560007,
+            "lat": 12,
+            "long": 77,
+            "from": "09:00:00",
+            "to": "18:00:00",
+            "fee_type": "Free",
+            "sessions": [
+                {
+                    "session_id": "4f795d2e-70e7-4c4e-99c9-6e048444f7ef",
+                    "date": "22-05-2021",
+                    "available_capacity": 0,
+                    "min_age_limit": 45,
+                    "vaccine": "COVISHIELD",
+                    "slots": [
+                        "09:00AM-11:00AM",
+                        "11:00AM-01:00PM",
+                        "01:00PM-03:00PM",
+                        "03:00PM-06:00PM"
+                    ],
+                    "available_capacity_dose1": 0,
+                    "available_capacity_dose2": 0
+                }
+            ]
+        },
+        {
+            "center_id": 249074,
+            "name": "Kannalli PHC",
+            "address": "Near Veerabhadraswamy Temple Kannalli",
+            "state_name": "Karnataka",
+            "district_name": "Bangalore Urban",
+            "block_name": "Bengaluru North",
+            "pincode": 560112,
+            "lat": 12,
+            "long": 77,
+            "from": "10:00:00",
+            "to": "16:00:00",
+            "fee_type": "Free",
+            "sessions": [
+                {
+                    "session_id": "6821e79c-ebc8-42e7-8caa-165bc6b8c0c0",
+                    "date": "22-05-2021",
+                    "available_capacity": 0,
+                    "min_age_limit": 45,
+                    "vaccine": "COVISHIELD",
+                    "slots": [
+                        "10:00AM-11:00AM",
+                        "11:00AM-12:00PM",
+                        "12:00PM-01:00PM",
+                        "01:00PM-04:00PM"
+                    ],
+                    "available_capacity_dose1": 0,
+                    "available_capacity_dose2": 0
+                }
+            ]
+        },
+        {
+            "center_id": 656719,
+            "name": "Indalwadi PHC",
+            "address": "Indalvadi Govt Hospital",
+            "state_name": "Karnataka",
+            "district_name": "Bangalore Urban",
+            "block_name": "Anekal",
+            "pincode": 562106,
+            "lat": 12,
+            "long": 77,
+            "from": "10:00:00",
+            "to": "13:00:00",
+            "fee_type": "Free",
+            "sessions": [
+                {
+                    "session_id": "88a3bf87-66c4-4eb5-902c-1a733c73fcb8",
+                    "date": "22-05-2021",
+                    "available_capacity": 0,
+                    "min_age_limit": 45,
+                    "vaccine": "COVISHIELD",
+                    "slots": [
+                        "10:00AM-12:00PM",
+                        "12:00PM-01:00PM"
+                    ],
+                    "available_capacity_dose1": 0,
+                    "available_capacity_dose2": 0
+                },
+                {
+                    "session_id": "637eb6f5-cdd1-4a10-acd0-c044385d551b",
+                    "date": "23-05-2021",
+                    "available_capacity": 0,
+                    "min_age_limit": 45,
+                    "vaccine": "COVISHIELD",
+                    "slots": [
+                        "10:00AM-12:00PM",
+                        "12:00PM-01:00PM"
+                    ],
+                    "available_capacity_dose1": 0,
+                    "available_capacity_dose2": 0
+                },
+                {
+                    "session_id": "2aab25da-ad91-46ce-9cfc-68800e27eeba",
+                    "date": "24-05-2021",
+                    "available_capacity": 0,
+                    "min_age_limit": 45,
+                    "vaccine": "COVISHIELD",
+                    "slots": [
+                        "10:00AM-11:00AM",
+                        "11:00AM-12:00PM",
+                        "12:00PM-01:00PM",
+                        "01:00PM-04:00PM"
+                    ],
+                    "available_capacity_dose1": 0,
+                    "available_capacity_dose2": 0
+                }
+            ]
+        },
+        {
+            "center_id": 662348,
+            "name": "Huralichikkanahalli Sub Centre",
+            "address": "Subcentre Huralichikkanahalli Place Huralichikkanahalli",
+            "state_name": "Karnataka",
+            "district_name": "Bangalore Urban",
+            "block_name": "Bengaluru North",
+            "pincode": 560090,
+            "lat": 13,
+            "long": 77,
+            "from": "10:00:00",
+            "to": "16:00:00",
+            "fee_type": "Free",
+            "sessions": [
+                {
+                    "session_id": "2265d0b2-d66c-41ad-bdd5-3f183a3ceda9",
+                    "date": "22-05-2021",
+                    "available_capacity": 0,
+                    "min_age_limit": 45,
+                    "vaccine": "COVISHIELD",
+                    "slots": [
+                        "10:00AM-11:00AM",
+                        "11:00AM-12:00PM",
+                        "12:00PM-01:00PM",
+                        "01:00PM-04:00PM"
+                    ],
+                    "available_capacity_dose1": 0,
+                    "available_capacity_dose2": 0
+                }
+            ]
+        },
+        {
+            "center_id": 694749,
+            "name": "STS-II BSF HOSPTAL YELAHANKA",
+            "address": "Border Security Force PO-AFS Yelahanka",
+            "state_name": "Karnataka",
+            "district_name": "Bangalore Urban",
+            "block_name": "Bengaluru East",
+            "pincode": 560063,
+            "lat": 13,
+            "long": 77,
+            "from": "10:00:00",
+            "to": "16:00:00",
+            "fee_type": "Free",
+            "sessions": [
+                {
+                    "session_id": "a5ee4aba-1a9e-41b8-8943-919523010dac",
+                    "date": "22-05-2021",
+                    "available_capacity": 0,
+                    "min_age_limit": 45,
+                    "vaccine": "COVISHIELD",
+                    "slots": [
+                        "10:00AM-11:00AM",
+                        "11:00AM-12:00PM",
+                        "12:00PM-01:00PM",
+                        "01:00PM-04:00PM"
+                    ],
+                    "available_capacity_dose1": 0,
+                    "available_capacity_dose2": 0
+                }
+            ]
+        },
+        {
+            "center_id": 249067,
+            "name": "Haragadde PHC",
+            "address": "Bannerghatta Main Road",
+            "state_name": "Karnataka",
+            "district_name": "Bangalore Urban",
+            "block_name": "Anekal",
+            "pincode": 560105,
+            "lat": 12,
+            "long": 77,
+            "from": "10:00:00",
+            "to": "13:00:00",
+            "fee_type": "Free",
+            "sessions": [
+                {
+                    "session_id": "ec7b76cc-042a-46a0-a94b-c33345958921",
+                    "date": "22-05-2021",
+                    "available_capacity": 0,
+                    "min_age_limit": 45,
+                    "vaccine": "COVISHIELD",
+                    "slots": [
+                        "10:00AM-12:00PM",
+                        "12:00PM-01:00PM"
+                    ],
+                    "available_capacity_dose1": 0,
+                    "available_capacity_dose2": 0
+                },
+                {
+                    "session_id": "39b407d6-f8aa-4c3c-8945-67cd8068ecb5",
+                    "date": "23-05-2021",
+                    "available_capacity": 0,
+                    "min_age_limit": 45,
+                    "vaccine": "COVISHIELD",
+                    "slots": [
+                        "10:00AM-12:00PM",
+                        "12:00PM-01:00PM"
+                    ],
+                    "available_capacity_dose1": 0,
+                    "available_capacity_dose2": 0
+                },
+                {
+                    "session_id": "fb5fdf49-05a5-4301-8c01-1ff5b9b42b86",
+                    "date": "24-05-2021",
+                    "available_capacity": 0,
+                    "min_age_limit": 45,
+                    "vaccine": "COVISHIELD",
+                    "slots": [
+                        "10:00AM-11:00AM",
+                        "11:00AM-12:00PM",
+                        "12:00PM-01:00PM",
+                        "01:00PM-04:00PM"
+                    ],
+                    "available_capacity_dose1": 0,
+                    "available_capacity_dose2": 0
+                }
+            ]
+        },
+        {
+            "center_id": 590616,
+            "name": "Yelahanka TH.",
+            "address": "Yelahanka Old Town Behind Veeranjaneya Temple",
+            "state_name": "Karnataka",
+            "district_name": "Bangalore Urban",
+            "block_name": "Bengaluru North",
+            "pincode": 562157,
+            "lat": 13,
+            "long": 77,
+            "from": "10:00:00",
+            "to": "16:00:00",
+            "fee_type": "Free",
+            "sessions": [
+                {
+                    "session_id": "4b816df5-ae0c-4e9c-9cba-3d981e9302b0",
+                    "date": "22-05-2021",
+                    "available_capacity": 0,
+                    "min_age_limit": 45,
+                    "vaccine": "COVISHIELD",
+                    "slots": [
+                        "10:00AM-11:00AM",
+                        "11:00AM-12:00PM",
+                        "12:00PM-01:00PM",
+                        "01:00PM-04:00PM"
+                    ],
+                    "available_capacity_dose1": 0,
+                    "available_capacity_dose2": 0
+                },
+                {
+                    "session_id": "7e2fe6c4-93f7-42f5-91b5-b72bf1f40796",
+                    "date": "23-05-2021",
+                    "available_capacity": 0,
+                    "min_age_limit": 45,
+                    "vaccine": "COVISHIELD",
+                    "slots": [
+                        "10:00AM-12:00PM",
+                        "12:00PM-01:00PM"
+                    ],
+                    "available_capacity_dose1": 0,
+                    "available_capacity_dose2": 0
+                },
+                {
+                    "session_id": "287e014b-62bf-4a7d-b103-34121819b873",
+                    "date": "24-05-2021",
+                    "available_capacity": 0,
+                    "min_age_limit": 45,
+                    "vaccine": "COVISHIELD",
+                    "slots": [
+                        "10:00AM-11:00AM",
+                        "11:00AM-12:00PM",
+                        "12:00PM-01:00PM",
+                        "01:00PM-04:00PM"
+                    ],
+                    "available_capacity_dose1": 0,
+                    "available_capacity_dose2": 0
+                }
+            ]
+        },
+        {
+            "center_id": 249071,
+            "name": "Jigani PHC",
+            "address": "APC Circle Bannerghatta Road",
+            "state_name": "Karnataka",
+            "district_name": "Bangalore Urban",
+            "block_name": "Anekal",
+            "pincode": 560105,
+            "lat": 12,
+            "long": 77,
+            "from": "10:00:00",
+            "to": "13:00:00",
+            "fee_type": "Free",
+            "sessions": [
+                {
+                    "session_id": "b5a3a3bf-f89f-47ca-81a8-813d31d20e3d",
+                    "date": "22-05-2021",
+                    "available_capacity": 0,
+                    "min_age_limit": 45,
+                    "vaccine": "COVISHIELD",
+                    "slots": [
+                        "10:00AM-12:00PM",
+                        "12:00PM-01:00PM"
+                    ],
+                    "available_capacity_dose1": 0,
+                    "available_capacity_dose2": 0
+                },
+                {
+                    "session_id": "b32fa05c-cd9f-43d8-9fd3-a70636455a76",
+                    "date": "23-05-2021",
+                    "available_capacity": 0,
+                    "min_age_limit": 45,
+                    "vaccine": "COVISHIELD",
+                    "slots": [
+                        "10:00AM-12:00PM",
+                        "12:00PM-01:00PM"
+                    ],
+                    "available_capacity_dose1": 0,
+                    "available_capacity_dose2": 0
+                },
+                {
+                    "session_id": "5e252772-7468-419f-9b28-1fc5f15d1c94",
+                    "date": "24-05-2021",
+                    "available_capacity": 0,
+                    "min_age_limit": 45,
+                    "vaccine": "COVISHIELD",
+                    "slots": [
+                        "10:00AM-11:00AM",
+                        "11:00AM-12:00PM",
+                        "12:00PM-01:00PM",
+                        "01:00PM-04:00PM"
+                    ],
+                    "available_capacity_dose1": 0,
+                    "available_capacity_dose2": 0
+                }
+            ]
+        },
+        {
+            "center_id": 249077,
+            "name": "General Hospital K R Puram",
+            "address": "Hosakote Main Road",
+            "state_name": "Karnataka",
+            "district_name": "Bangalore Urban",
+            "block_name": "Bengaluru East",
+            "pincode": 560036,
+            "lat": 13,
+            "long": 77,
+            "from": "10:00:00",
+            "to": "16:00:00",
+            "fee_type": "Free",
+            "sessions": [
+                {
+                    "session_id": "0c0a0c6d-4b18-4584-a776-9004e40a9f84",
+                    "date": "22-05-2021",
+                    "available_capacity": 0,
+                    "min_age_limit": 45,
+                    "vaccine": "COVISHIELD",
+                    "slots": [
+                        "10:00AM-11:00AM",
+                        "11:00AM-12:00PM",
+                        "12:00PM-01:00PM",
+                        "01:00PM-04:00PM"
+                    ],
+                    "available_capacity_dose1": 0,
+                    "available_capacity_dose2": 0
+                },
+                {
+                    "session_id": "dcadbe26-3e59-48a4-8dab-bcc43aff343b",
+                    "date": "23-05-2021",
+                    "available_capacity": 0,
+                    "min_age_limit": 45,
+                    "vaccine": "COVISHIELD",
+                    "slots": [
+                        "10:00AM-12:00PM",
+                        "12:00PM-01:00PM"
+                    ],
+                    "available_capacity_dose1": 0,
+                    "available_capacity_dose2": 0
+                },
+                {
+                    "session_id": "0ead8908-3732-4d37-8a5f-12b32ea31c09",
+                    "date": "24-05-2021",
+                    "available_capacity": 0,
+                    "min_age_limit": 45,
+                    "vaccine": "COVISHIELD",
+                    "slots": [
+                        "10:00AM-11:00AM",
+                        "11:00AM-12:00PM",
+                        "12:00PM-01:00PM",
+                        "01:00PM-04:00PM"
+                    ],
+                    "available_capacity_dose1": 0,
+                    "available_capacity_dose2": 0
+                }
+            ]
+        },
+        {
+            "center_id": 249085,
+            "name": "Sarjapura PHC",
+            "address": "Near Sarjapura Police Station",
+            "state_name": "Karnataka",
+            "district_name": "Bangalore Urban",
+            "block_name": "Anekal",
+            "pincode": 562125,
+            "lat": 12,
+            "long": 77,
+            "from": "10:00:00",
+            "to": "13:00:00",
+            "fee_type": "Free",
+            "sessions": [
+                {
+                    "session_id": "1e36c1a2-62d3-4a92-bbc7-c2a179555171",
+                    "date": "22-05-2021",
+                    "available_capacity": 0,
+                    "min_age_limit": 45,
+                    "vaccine": "COVISHIELD",
+                    "slots": [
+                        "10:00AM-12:00PM",
+                        "12:00PM-01:00PM"
+                    ],
+                    "available_capacity_dose1": 0,
+                    "available_capacity_dose2": 0
+                },
+                {
+                    "session_id": "78731be9-fae0-494d-aa9b-f00018ff9b24",
+                    "date": "23-05-2021",
+                    "available_capacity": 0,
+                    "min_age_limit": 45,
+                    "vaccine": "COVISHIELD",
+                    "slots": [
+                        "10:00AM-12:00PM",
+                        "12:00PM-01:00PM"
+                    ],
+                    "available_capacity_dose1": 0,
+                    "available_capacity_dose2": 0
+                },
+                {
+                    "session_id": "3a177c13-8ec0-49cd-b726-6b0d8e6040aa",
+                    "date": "24-05-2021",
+                    "available_capacity": 0,
+                    "min_age_limit": 45,
+                    "vaccine": "COVISHIELD",
+                    "slots": [
+                        "10:00AM-11:00AM",
+                        "11:00AM-12:00PM",
+                        "12:00PM-01:00PM",
+                        "01:00PM-04:00PM"
+                    ],
+                    "available_capacity_dose1": 0,
+                    "available_capacity_dose2": 0
+                }
+            ]
+        },
+        {
+            "center_id": 249064,
+            "name": "Guddahatti PHC",
+            "address": "Near Budda Temple",
+            "state_name": "Karnataka",
+            "district_name": "Bangalore Urban",
+            "block_name": "Anekal",
+            "pincode": 562107,
+            "lat": 12,
+            "long": 77,
+            "from": "10:00:00",
+            "to": "13:00:00",
+            "fee_type": "Free",
+            "sessions": [
+                {
+                    "session_id": "795724af-d12d-4d6b-8419-0f2b6d438243",
+                    "date": "22-05-2021",
+                    "available_capacity": 0,
+                    "min_age_limit": 45,
+                    "vaccine": "COVISHIELD",
+                    "slots": [
+                        "10:00AM-12:00PM",
+                        "12:00PM-01:00PM"
+                    ],
+                    "available_capacity_dose1": 0,
+                    "available_capacity_dose2": 0
+                },
+                {
+                    "session_id": "d26adedb-ccf0-4652-93a6-c6c834c7668d",
+                    "date": "23-05-2021",
+                    "available_capacity": 0,
+                    "min_age_limit": 45,
+                    "vaccine": "COVISHIELD",
+                    "slots": [
+                        "10:00AM-12:00PM",
+                        "12:00PM-01:00PM"
+                    ],
+                    "available_capacity_dose1": 0,
+                    "available_capacity_dose2": 0
+                },
+                {
+                    "session_id": "a2b04c26-fecb-4d3a-82b0-ae1bdce4ae34",
+                    "date": "24-05-2021",
+                    "available_capacity": 0,
+                    "min_age_limit": 45,
+                    "vaccine": "COVISHIELD",
+                    "slots": [
+                        "10:00AM-11:00AM",
+                        "11:00AM-12:00PM",
+                        "12:00PM-01:00PM",
+                        "01:00PM-04:00PM"
+                    ],
+                    "available_capacity_dose1": 0,
+                    "available_capacity_dose2": 0
+                }
+            ]
+        },
+        {
+            "center_id": 586940,
+            "name": "DCHC Leprosy Hospital",
+            "address": "DCHC Leprosy Hospital",
+            "state_name": "Karnataka",
+            "district_name": "Bangalore Urban",
+            "block_name": "Bengaluru North",
+            "pincode": 560023,
+            "lat": 12,
+            "long": 77,
+            "from": "10:00:00",
+            "to": "16:00:00",
+            "fee_type": "Free",
+            "sessions": [
+                {
+                    "session_id": "2e5dd7f8-d8bd-4575-be9f-e6b913438c29",
+                    "date": "22-05-2021",
+                    "available_capacity": 0,
+                    "min_age_limit": 45,
+                    "vaccine": "COVISHIELD",
+                    "slots": [
+                        "10:00AM-11:00AM",
+                        "11:00AM-12:00PM",
+                        "12:00PM-01:00PM",
+                        "01:00PM-04:00PM"
+                    ],
+                    "available_capacity_dose1": 0,
+                    "available_capacity_dose2": 0
+                },
+                {
+                    "session_id": "ef1ef9f6-61c7-4773-ac15-1ed06fda6469",
+                    "date": "24-05-2021",
+                    "available_capacity": 0,
+                    "min_age_limit": 45,
+                    "vaccine": "COVISHIELD",
+                    "slots": [
+                        "10:00AM-11:00AM",
+                        "11:00AM-12:00PM",
+                        "12:00PM-01:00PM",
+                        "01:00PM-04:00PM"
+                    ],
+                    "available_capacity_dose1": 0,
+                    "available_capacity_dose2": 0
+                }
+            ]
+        },
+        {
+            "center_id": 631424,
+            "name": "GH. K R Puram COVAXIN",
+            "address": "Hosakote Main Road",
+            "state_name": "Karnataka",
+            "district_name": "Bangalore Urban",
+            "block_name": "Bengaluru East",
+            "pincode": 560036,
+            "lat": 13,
+            "long": 77,
+            "from": "10:00:00",
+            "to": "16:00:00",
+            "fee_type": "Free",
+            "sessions": [
+                {
+                    "session_id": "7fd925bd-a20a-45e6-8055-eeeededf0e11",
+                    "date": "22-05-2021",
+                    "available_capacity": 0,
+                    "min_age_limit": 45,
+                    "vaccine": "COVAXIN",
+                    "slots": [
+                        "10:00AM-11:00AM",
+                        "11:00AM-12:00PM",
+                        "12:00PM-01:00PM",
+                        "01:00PM-04:00PM"
+                    ],
+                    "available_capacity_dose1": 0,
+                    "available_capacity_dose2": 0
+                },
+                {
+                    "session_id": "03546508-ab0d-4b62-a084-2651e5f487b4",
+                    "date": "23-05-2021",
+                    "available_capacity": 0,
+                    "min_age_limit": 45,
+                    "vaccine": "COVAXIN",
+                    "slots": [
+                        "10:00AM-12:00PM",
+                        "12:00PM-01:00PM"
+                    ],
+                    "available_capacity_dose1": 0,
+                    "available_capacity_dose2": 0
+                },
+                {
+                    "session_id": "c9d40a07-1474-44f5-bd2b-0271b72fe558",
+                    "date": "24-05-2021",
+                    "available_capacity": 0,
+                    "min_age_limit": 45,
+                    "vaccine": "COVAXIN",
+                    "slots": [
+                        "10:00AM-11:00AM",
+                        "11:00AM-12:00PM",
+                        "12:00PM-01:00PM",
+                        "01:00PM-04:00PM"
+                    ],
+                    "available_capacity_dose1": 0,
+                    "available_capacity_dose2": 0
+                }
+            ]
+        },
+        {
+            "center_id": 249048,
+            "name": "Bolare PHC",
+            "address": "Kanakapura Main Road",
+            "state_name": "Karnataka",
+            "district_name": "Bangalore Urban",
+            "block_name": "Bengaluru South",
+            "pincode": 560116,
+            "lat": 12,
+            "long": 77,
+            "from": "10:00:00",
+            "to": "16:00:00",
+            "fee_type": "Free",
+            "sessions": [
+                {
+                    "session_id": "fa24cf10-142f-484f-8328-3e3f7c09c7db",
+                    "date": "22-05-2021",
+                    "available_capacity": 0,
+                    "min_age_limit": 45,
+                    "vaccine": "COVISHIELD",
+                    "slots": [
+                        "10:00AM-11:00AM",
+                        "11:00AM-12:00PM",
+                        "12:00PM-01:00PM",
+                        "01:00PM-04:00PM"
+                    ],
+                    "available_capacity_dose1": 0,
+                    "available_capacity_dose2": 0
+                },
+                {
+                    "session_id": "f1b8ac37-3fe8-4dae-9a7c-e90143d6f8f1",
+                    "date": "23-05-2021",
+                    "available_capacity": 0,
+                    "min_age_limit": 45,
+                    "vaccine": "COVISHIELD",
+                    "slots": [
+                        "10:00AM-12:00PM",
+                        "12:00PM-01:00PM"
+                    ],
+                    "available_capacity_dose1": 0,
+                    "available_capacity_dose2": 0
+                },
+                {
+                    "session_id": "330f9ab8-25b6-4078-ba44-9ec26e95bf2a",
+                    "date": "24-05-2021",
+                    "available_capacity": 0,
+                    "min_age_limit": 45,
+                    "vaccine": "COVISHIELD",
+                    "slots": [
+                        "10:00AM-11:00AM",
+                        "11:00AM-12:00PM",
+                        "12:00PM-01:00PM",
+                        "01:00PM-04:00PM"
+                    ],
+                    "available_capacity_dose1": 0,
+                    "available_capacity_dose2": 0
+                }
+            ]
+        },
+        {
+            "center_id": 249078,
+            "name": "Kumbalgodu PHC",
+            "address": "Mysore Main Road",
+            "state_name": "Karnataka",
+            "district_name": "Bangalore Urban",
+            "block_name": "Bengaluru South",
+            "pincode": 560074,
+            "lat": 12,
+            "long": 77,
+            "from": "10:00:00",
+            "to": "16:00:00",
+            "fee_type": "Free",
+            "sessions": [
+                {
+                    "session_id": "2e41d2b7-acd3-47a6-b92c-1c2a2b3efc87",
+                    "date": "22-05-2021",
+                    "available_capacity": 0,
+                    "min_age_limit": 45,
+                    "vaccine": "COVISHIELD",
+                    "slots": [
+                        "10:00AM-11:00AM",
+                        "11:00AM-12:00PM",
+                        "12:00PM-01:00PM",
+                        "01:00PM-04:00PM"
+                    ],
+                    "available_capacity_dose1": 0,
+                    "available_capacity_dose2": 0
+                },
+                {
+                    "session_id": "3d56e6d9-5216-4b2f-b590-7f7db9b40520",
+                    "date": "23-05-2021",
+                    "available_capacity": 0,
+                    "min_age_limit": 45,
+                    "vaccine": "COVISHIELD",
+                    "slots": [
+                        "10:00AM-12:00PM",
+                        "12:00PM-01:00PM"
+                    ],
+                    "available_capacity_dose1": 0,
+                    "available_capacity_dose2": 0
+                },
+                {
+                    "session_id": "dba5a5fc-ed9b-4a0a-912b-7e1d3185f80d",
+                    "date": "24-05-2021",
+                    "available_capacity": 0,
+                    "min_age_limit": 45,
+                    "vaccine": "COVISHIELD",
+                    "slots": [
+                        "10:00AM-11:00AM",
+                        "11:00AM-12:00PM",
+                        "12:00PM-01:00PM",
+                        "01:00PM-04:00PM"
+                    ],
+                    "available_capacity_dose1": 0,
+                    "available_capacity_dose2": 0
+                }
+            ]
+        },
+        {
+            "center_id": 591585,
+            "name": "Anekal TH",
+            "address": "Tali Road Opp Taluk Office",
+            "state_name": "Karnataka",
+            "district_name": "Bangalore Urban",
+            "block_name": "Anekal",
+            "pincode": 562106,
+            "lat": 12,
+            "long": 77,
+            "from": "10:00:00",
+            "to": "16:00:00",
+            "fee_type": "Free",
+            "sessions": [
+                {
+                    "session_id": "9756506d-bcfe-4919-b8b6-1feba8757f2d",
+                    "date": "22-05-2021",
+                    "available_capacity": 0,
+                    "min_age_limit": 45,
+                    "vaccine": "COVISHIELD",
+                    "slots": [
+                        "10:00AM-11:00AM",
+                        "11:00AM-12:00PM",
+                        "12:00PM-01:00PM",
+                        "01:00PM-04:00PM"
+                    ],
+                    "available_capacity_dose1": 0,
+                    "available_capacity_dose2": 0
+                },
+                {
+                    "session_id": "dfdddf21-5684-4bcb-827f-cb9d98a250d4",
+                    "date": "23-05-2021",
+                    "available_capacity": 0,
+                    "min_age_limit": 45,
+                    "vaccine": "COVISHIELD",
+                    "slots": [
+                        "10:00AM-12:00PM",
+                        "12:00PM-01:00PM"
+                    ],
+                    "available_capacity_dose1": 0,
+                    "available_capacity_dose2": 0
+                },
+                {
+                    "session_id": "aeb9b5d5-d1ae-46bd-aa76-e4c90a9926ad",
+                    "date": "24-05-2021",
+                    "available_capacity": 0,
+                    "min_age_limit": 45,
+                    "vaccine": "COVISHIELD",
+                    "slots": [
+                        "10:00AM-12:00PM",
+                        "12:00PM-01:00PM"
+                    ],
+                    "available_capacity_dose1": 0,
+                    "available_capacity_dose2": 0
+                },
+                {
+                    "session_id": "ec58111f-fffa-4a92-94b1-ae9815deb6a4",
+                    "date": "25-05-2021",
+                    "available_capacity": 0,
+                    "min_age_limit": 45,
+                    "vaccine": "COVISHIELD",
+                    "slots": [
+                        "10:00AM-11:00AM",
+                        "11:00AM-12:00PM",
+                        "12:00PM-01:00PM",
+                        "01:00PM-04:00PM"
+                    ],
+                    "available_capacity_dose1": 0,
+                    "available_capacity_dose2": 0
+                }
+            ]
+        },
+        {
+            "center_id": 249068,
+            "name": "Hebbagodi PHC",
+            "address": "Nathal Bihari Vajapayee Circle",
+            "state_name": "Karnataka",
+            "district_name": "Bangalore Urban",
+            "block_name": "Anekal",
+            "pincode": 560099,
+            "lat": 12,
+            "long": 77,
+            "from": "10:00:00",
+            "to": "13:00:00",
+            "fee_type": "Free",
+            "sessions": [
+                {
+                    "session_id": "c1af8414-4ed9-46cd-90d5-a7ff125c2139",
+                    "date": "22-05-2021",
+                    "available_capacity": 0,
+                    "min_age_limit": 45,
+                    "vaccine": "COVISHIELD",
+                    "slots": [
+                        "10:00AM-12:00PM",
+                        "12:00PM-01:00PM"
+                    ],
+                    "available_capacity_dose1": 0,
+                    "available_capacity_dose2": 0
+                },
+                {
+                    "session_id": "282ca71e-7ca8-43cf-8209-ca6f4aa49a08",
+                    "date": "23-05-2021",
+                    "available_capacity": 0,
+                    "min_age_limit": 45,
+                    "vaccine": "COVISHIELD",
+                    "slots": [
+                        "10:00AM-12:00PM",
+                        "12:00PM-01:00PM"
+                    ],
+                    "available_capacity_dose1": 0,
+                    "available_capacity_dose2": 0
+                },
+                {
+                    "session_id": "5d1a1977-9f74-4337-b601-47b0aa14afb5",
+                    "date": "24-05-2021",
+                    "available_capacity": 0,
+                    "min_age_limit": 45,
+                    "vaccine": "COVISHIELD",
+                    "slots": [
+                        "10:00AM-11:00AM",
+                        "11:00AM-12:00PM",
+                        "12:00PM-01:00PM",
+                        "01:00PM-04:00PM"
+                    ],
+                    "available_capacity_dose1": 0,
+                    "available_capacity_dose2": 0
+                }
+            ]
+        },
+        {
+            "center_id": 249097,
+            "name": "Tavarekere PHC",
+            "address": "Magadi Main Road",
+            "state_name": "Karnataka",
+            "district_name": "Bangalore Urban",
+            "block_name": "Bengaluru South",
+            "pincode": 562130,
+            "lat": 12,
+            "long": 77,
+            "from": "10:00:00",
+            "to": "16:00:00",
+            "fee_type": "Free",
+            "sessions": [
+                {
+                    "session_id": "b14556ad-ab08-4b7b-a8a1-436dfd889b4e",
+                    "date": "22-05-2021",
+                    "available_capacity": 0,
+                    "min_age_limit": 45,
+                    "vaccine": "COVISHIELD",
+                    "slots": [
+                        "10:00AM-11:00AM",
+                        "11:00AM-12:00PM",
+                        "12:00PM-01:00PM",
+                        "01:00PM-04:00PM"
+                    ],
+                    "available_capacity_dose1": 0,
+                    "available_capacity_dose2": 0
+                },
+                {
+                    "session_id": "2af484ec-0142-42c2-b386-03ebf1f1ad24",
+                    "date": "23-05-2021",
+                    "available_capacity": 0,
+                    "min_age_limit": 45,
+                    "vaccine": "COVISHIELD",
+                    "slots": [
+                        "10:00AM-12:00PM",
+                        "12:00PM-01:00PM"
+                    ],
+                    "available_capacity_dose1": 0,
+                    "available_capacity_dose2": 0
+                },
+                {
+                    "session_id": "ead323e4-edb1-473e-baf6-74760a7d4f46",
+                    "date": "24-05-2021",
+                    "available_capacity": 0,
+                    "min_age_limit": 45,
+                    "vaccine": "COVISHIELD",
+                    "slots": [
+                        "10:00AM-11:00AM",
+                        "11:00AM-12:00PM",
+                        "12:00PM-01:00PM",
+                        "01:00PM-04:00PM"
+                    ],
+                    "available_capacity_dose1": 0,
+                    "available_capacity_dose2": 0
+                }
+            ]
+        },
+        {
+            "center_id": 249096,
+            "name": "Sulikere PHC",
+            "address": "Near Sulikere Government School",
+            "state_name": "Karnataka",
+            "district_name": "Bangalore Urban",
+            "block_name": "Bengaluru South",
+            "pincode": 560060,
+            "lat": 12,
+            "long": 77,
+            "from": "10:00:00",
+            "to": "16:00:00",
+            "fee_type": "Free",
+            "sessions": [
+                {
+                    "session_id": "efb3e71a-cc99-42a9-a4af-bb10e911bd43",
+                    "date": "22-05-2021",
+                    "available_capacity": 0,
+                    "min_age_limit": 45,
+                    "vaccine": "COVISHIELD",
+                    "slots": [
+                        "10:00AM-11:00AM",
+                        "11:00AM-12:00PM",
+                        "12:00PM-01:00PM",
+                        "01:00PM-04:00PM"
+                    ],
+                    "available_capacity_dose1": 0,
+                    "available_capacity_dose2": 0
+                },
+                {
+                    "session_id": "9976d1c9-d419-4294-b970-01126766628a",
+                    "date": "23-05-2021",
+                    "available_capacity": 0,
+                    "min_age_limit": 45,
+                    "vaccine": "COVISHIELD",
+                    "slots": [
+                        "10:00AM-12:00PM",
+                        "12:00PM-01:00PM"
+                    ],
+                    "available_capacity_dose1": 0,
+                    "available_capacity_dose2": 0
+                },
+                {
+                    "session_id": "e74f21b0-27e9-44b4-84d6-91efce64eb64",
+                    "date": "24-05-2021",
+                    "available_capacity": 0,
+                    "min_age_limit": 45,
+                    "vaccine": "COVISHIELD",
+                    "slots": [
+                        "10:00AM-11:00AM",
+                        "11:00AM-12:00PM",
+                        "12:00PM-01:00PM",
+                        "01:00PM-04:00PM"
+                    ],
+                    "available_capacity_dose1": 0,
+                    "available_capacity_dose2": 0
+                }
+            ]
+        },
+        {
+            "center_id": 249152,
+            "name": "Bettahalsuru PHC",
+            "address": "Near Govt School Bettahalsuru Post",
+            "state_name": "Karnataka",
+            "district_name": "Bangalore Urban",
+            "block_name": "Bengaluru North",
+            "pincode": 562157,
+            "lat": 13,
+            "long": 77,
+            "from": "10:00:00",
+            "to": "16:00:00",
+            "fee_type": "Free",
+            "sessions": [
+                {
+                    "session_id": "af05ab8d-67bf-45b5-9b53-9a62b6defeaa",
+                    "date": "22-05-2021",
+                    "available_capacity": 0,
+                    "min_age_limit": 45,
+                    "vaccine": "COVISHIELD",
+                    "slots": [
+                        "10:00AM-11:00AM",
+                        "11:00AM-12:00PM",
+                        "12:00PM-01:00PM",
+                        "01:00PM-04:00PM"
+                    ],
+                    "available_capacity_dose1": 0,
+                    "available_capacity_dose2": 0
+                },
+                {
+                    "session_id": "05880ab0-fe22-458c-b0d3-1a64f7e3bd4d",
+                    "date": "23-05-2021",
+                    "available_capacity": 0,
+                    "min_age_limit": 45,
+                    "vaccine": "COVISHIELD",
+                    "slots": [
+                        "10:00AM-12:00PM",
+                        "12:00PM-01:00PM"
+                    ],
+                    "available_capacity_dose1": 0,
+                    "available_capacity_dose2": 0
+                },
+                {
+                    "session_id": "11e22952-479e-491d-ac18-8fee9ff6c847",
+                    "date": "24-05-2021",
+                    "available_capacity": 0,
+                    "min_age_limit": 45,
+                    "vaccine": "COVISHIELD",
+                    "slots": [
+                        "10:00AM-11:00AM",
+                        "11:00AM-12:00PM",
+                        "12:00PM-01:00PM",
+                        "01:00PM-04:00PM"
+                    ],
+                    "available_capacity_dose1": 0,
+                    "available_capacity_dose2": 0
+                }
+            ]
+        },
+        {
+            "center_id": 249066,
+            "name": "Halanayakanahalli PHC",
+            "address": "Sarjapura Main Road",
+            "state_name": "Karnataka",
+            "district_name": "Bangalore Urban",
+            "block_name": "Bengaluru East",
+            "pincode": 560035,
+            "lat": 12,
+            "long": 77,
+            "from": "10:00:00",
+            "to": "16:00:00",
+            "fee_type": "Free",
+            "sessions": [
+                {
+                    "session_id": "210f1baf-b8bd-47a6-b61b-467b74e533db",
+                    "date": "22-05-2021",
+                    "available_capacity": 0,
+                    "min_age_limit": 45,
+                    "vaccine": "COVISHIELD",
+                    "slots": [
+                        "10:00AM-11:00AM",
+                        "11:00AM-12:00PM",
+                        "12:00PM-01:00PM",
+                        "01:00PM-04:00PM"
+                    ],
+                    "available_capacity_dose1": 0,
+                    "available_capacity_dose2": 0
+                },
+                {
+                    "session_id": "39889fd9-3afe-41c4-b262-7dc60e63be2c",
+                    "date": "23-05-2021",
+                    "available_capacity": 0,
+                    "min_age_limit": 45,
+                    "vaccine": "COVISHIELD",
+                    "slots": [
+                        "10:00AM-12:00PM",
+                        "12:00PM-01:00PM"
+                    ],
+                    "available_capacity_dose1": 0,
+                    "available_capacity_dose2": 0
+                },
+                {
+                    "session_id": "7b04a751-5298-4cee-a450-ef822ec78aff",
+                    "date": "24-05-2021",
+                    "available_capacity": 0,
+                    "min_age_limit": 45,
+                    "vaccine": "COVISHIELD",
+                    "slots": [
+                        "10:00AM-11:00AM",
+                        "11:00AM-12:00PM",
+                        "12:00PM-01:00PM",
+                        "01:00PM-04:00PM"
+                    ],
+                    "available_capacity_dose1": 0,
+                    "available_capacity_dose2": 0
+                }
+            ]
+        },
+        {
+            "center_id": 662953,
+            "name": "Mayasandra Sub Center",
+            "address": "Mayasandra",
+            "state_name": "Karnataka",
+            "district_name": "Bangalore Urban",
+            "block_name": "Anekal",
+            "pincode": 562107,
+            "lat": 12,
+            "long": 77,
+            "from": "10:00:00",
+            "to": "16:00:00",
+            "fee_type": "Free",
+            "sessions": [
+                {
+                    "session_id": "12063cce-d413-4876-8b32-6bd722a3af52",
+                    "date": "22-05-2021",
+                    "available_capacity": 0,
+                    "min_age_limit": 45,
+                    "vaccine": "COVISHIELD",
+                    "slots": [
+                        "10:00AM-11:00AM",
+                        "11:00AM-12:00PM",
+                        "12:00PM-01:00PM",
+                        "01:00PM-04:00PM"
+                    ],
+                    "available_capacity_dose1": 0,
+                    "available_capacity_dose2": 0
+                }
+            ]
+        }
+    ]
+}
